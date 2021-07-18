@@ -1,15 +1,15 @@
-# Configure Windi CSS
+# Configurar Windi CSS
 
 <Environment type="node" />
 
-Markdown naturally supports embedded HTML markups. You can therefore style your content the way you want. To provide some convenience, we have [Windi CSS](https://github.com/windicss/windicss) built-in, so you can style markup directly using class utilities. 
+Markdown suporta naturalmente tags HTML embutidas. Portanto, você pode estilizar seu conteudo como preferir. Para oferecer certa comodidade, nós temos o [Windi CSS](https://github.com/windicss/windicss) embutido, para que você possa estilzar o conteúdo diretamente usando classes.
 
-For example:
+Por exemplo:
 
 ```html
 <div class="grid pt-4 gap-4 grids-cols-[100px,1fr]">
 
-### Name
+### Nome
 
 - Item 1
 - Item 2
@@ -17,26 +17,26 @@ For example:
 </div>
 ```
 
-The [Attributify Mode](https://windicss.org/posts/v30.html#attributify-mode) in [Windi CSS v3.0](https://windicss.org/posts/v30.html) is enabled by default.
+O [Attributify Mode](https://windicss.org/posts/v30.html#attributify-mode) no [Windi CSS v3.0](https://windicss.org/posts/v30.html) é habilitado por padrão.
 
-## Configurations
+## Configurações
 
-To configure Windi CSS, create `setup/windicss.ts` with the following content to extend the builtin configurations
+Para configurar o Windi CSS, crie o arquivo `setup/windicss.ts` com o seguinte conteúdo para extender as configurações existentes:
 
 ```ts
 // setup/windicss.ts
 
 import { defineWindiSetup } from '@slidev/types'
 
-// extending the builtin windicss configurations
+// extenddendo a configuração existente do windicss
 export default defineWindiSetup(() => ({
   shortcuts: {
-    // custom the default background
+    // plano de fundo padrão customizado
     'bg-main': 'bg-white text-[#181818] dark:(bg-[#121212] text-[#ddd])',
   },
   theme: {
     extend: {
-      // fonts can be replaced here, remember to update the web font links in `index.html`
+      // fontes podem ser substituídas aqui, lembre-se de atualizar os links de fontes da web no `index.html`
       fontFamily: {
         sans: 'ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji"',
         mono: '"Fira Code", monospace',
@@ -46,4 +46,4 @@ export default defineWindiSetup(() => ({
 }))
 ```
 
-Learn more about [Windi CSS configurations](https://windicss.org/guide/configuration.html)
+Saiba mais sobre as [configurações do Windi CSS](https://windicss.org/guide/configuration.html).

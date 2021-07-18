@@ -19,7 +19,7 @@ In case it's already been translated but you're wondering how to maintain it, sk
 
 - [x] Fork the main docs repo: [slidevjs/docs](https://github.com/slidevjs/docs)
 - [x] Translate README.md, you can take one of the already translated repositories as an example.
-- [ ] Share your repo's link to the `#translations` channel telling people you are working on it and find collaborators. 
+- [x] Share your repo's link to the `#translations` channel telling people you are working on it and find collaborators. 
 
 ## Translating Markdown files
 
@@ -40,13 +40,13 @@ In case it's already been translated but you're wondering how to maintain it, sk
 
 ### custom/
 
-- [ ] `config-katex.md` - Configuring Katex
-- [ ] `config-mermaid.md` - Configuring Mermaid
-- [ ] `config-monaco.md` - Configuring Monaco
-- [ ] `config-shortcuts.md` - Configuring Shortcuts
-- [ ] `config-vite.md` - Configuring Vite
-- [ ] `config-vue.md` - Configuring Vue
-- [ ] `config-windicss.md`- Configuring Windicss
+- [x] `config-katex.md` - Configuring Katex
+- [x] `config-mermaid.md` - Configuring Mermaid
+- [x] `config-monaco.md` - Configuring Monaco
+- [x] `config-shortcuts.md` - Configuring Shortcuts
+- [x] `config-vite.md` - Configuring Vite
+- [x] `config-vue.md` - Configuring Vue
+- [x] `config-windicss.md`- Configuring Windicss
 - [ ] `directory-structure.md` - Configuring the directory structure
 - [ ] `fonts.md` - Configuring fonts
 - [ ] `global-layers.md` - Configuring the global layers
