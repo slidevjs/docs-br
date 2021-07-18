@@ -17,21 +17,21 @@ In case it's already been translated but you're wondering how to maintain it, sk
 
 ## Getting started
 
-- [ ] Fork the main docs repo: [slidevjs/docs](https://github.com/slidevjs/docs)
-- [ ] Translate README.md, you can take one of the already translated repositories as an example.
+- [x] Fork the main docs repo: [slidevjs/docs](https://github.com/slidevjs/docs)
+- [x] Translate README.md, you can take one of the already translated repositories as an example.
 - [ ] Share your repo's link to the `#translations` channel telling people you are working on it and find collaborators. 
 
 ## Translating Markdown files
 
-- [ ] `showcases.md` - A gallery showcase of Slidev presentations.
-- [ ] `index.md` - Mainpage content, note that some of it is buried under Vue components listed further below.
+- [x] `showcases.md` - A gallery showcase of Slidev presentations.
+- [x] `index.md` - Mainpage content, note that some of it is buried under Vue components listed further below.
 
 ### .vitepress/
 
-- [ ] `config.js` - Sitemap
-- [ ] `/theme/components/WorkingInProgress.vue` - WIP notice shown in mainpage
-- [ ] `/theme/components/demo/Demo.vue` - Animated demo shown in mainpage
-- [ ] `/theme/components/Environment.vue` - Describes the environment of a setting.
+- [x] `config.js` - Sitemap
+- [x] `/theme/components/WorkingInProgress.vue` - WIP notice shown in mainpage
+- [x] `/theme/components/demo/Demo.vue` - Animated demo shown in mainpage
+- [x] `/theme/components/Environment.vue` - Describes the environment of a setting.
 
 ### builtin/
 

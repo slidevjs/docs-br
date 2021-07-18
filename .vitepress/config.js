@@ -2,43 +2,43 @@
 
 const Guide = [
   {
-    text: 'Why Slidev',
+    text: 'Por que Slidev',
     link: '/guide/why',
   },
   {
-    text: 'Getting Started',
+    text: 'Primeiros passos',
     link: '/guide/',
   },
   {
-    text: 'Installation',
+    text: 'Instalação',
     link: '/guide/install',
   },
   {
-    text: 'Markdown Syntax',
+    text: 'Sintaxe do Markdown',
     link: '/guide/syntax',
   },
   {
-    text: 'Navigation',
+    text: 'Navegação',
     link: '/guide/navigation',
   },
   {
-    text: 'Animations',
+    text: 'Animações',
     link: '/guide/animations',
   },
   {
-    text: 'Exporting',
+    text: 'Exportando',
     link: '/guide/exporting',
   },
   {
-    text: 'Record Presentation',
+    text: 'Gravar a apresentação',
     link: '/guide/recording',
   },
   {
-    text: 'Presenter Mode',
+    text: 'Modo Apresentador',
     link: '/guide/presenter-mode',
   },
   {
-    text: 'Editor Integrations',
+    text: 'Integrações com o Editor',
     link: '/guide/editors',
   },
   {
@@ -49,15 +49,15 @@ const Guide = [
 
 const Theme = [
   {
-    text: 'Use Theme',
+    text: 'Usar um Tema',
     link: '/themes/use',
   },
   {
-    text: 'Theme Gallery',
+    text: 'Galeria de Temas',
     link: '/themes/gallery',
   },
   {
-    text: 'Write a Theme',
+    text: 'Escrever um tema',
     link: '/themes/write-a-theme',
   },
 ]
@@ -94,47 +94,47 @@ const Translations = [
 
 const Customizations = [
   {
-    text: 'Customizations',
+    text: 'Customizações',
     link: '/custom/',
   },
   {
-    text: 'Directory Structure',
+    text: 'Estrutura dos Diretórios',
     link: '/custom/directory-structure',
   },
   {
-    text: 'Fonts',
+    text: 'Fontes',
     link: '/custom/fonts',
   },
   {
-    text: 'Highlighters',
+    text: 'Marcadores',
     link: '/custom/highlighters',
   },
   {
-    text: 'Configure Vue',
+    text: 'Configurar Vue',
     link: '/custom/config-vue',
   },
   {
-    text: 'Configure Vite',
+    text: 'Configurar Vite',
     link: '/custom/config-vite',
   },
   {
-    text: 'Configure Windi CSS',
+    text: 'Configurar Windi CSS',
     link: '/custom/config-windicss',
   },
   {
-    text: 'Configure Monaco',
+    text: 'Configurar Monaco',
     link: '/custom/config-monaco',
   },
   {
-    text: 'Configure KaTeX',
+    text: 'Configurar KaTeX',
     link: '/custom/config-katex',
   },
   {
-    text: 'Configure Mermaid',
+    text: 'Configurar Mermaid',
     link: '/custom/config-mermaid',
   },
   {
-    text: 'Configure Shortcuts',
+    text: 'Configurar Atalhos',
     link: '/custom/config-shortcuts',
   },
   {
@@ -142,40 +142,40 @@ const Customizations = [
     link: '/custom/vue-context',
   },
   {
-    text: 'Global Layers',
+    text: 'Camadas Globais',
     link: '/custom/global-layers',
   }
 ]
 
 const Resources = [
   {
-    text: 'Showcases',
+    text: 'Galeria',
     link: '/showcases',
   },
   {
-    text: 'Curated Covers',
+    text: 'Capas Selecionadas',
     link: '/resources/covers',
   },
 ]
 
 const slidebars = [
   {
-    text: 'Guide',
+    text: 'Guia',
     children: Guide,
   },
   {
-    text: 'Themes',
+    text: 'Temas',
     children: Theme,
   },
   {
-    text: 'Customizations',
+    text: 'Customizações',
     children: Customizations,
   },
   {
-    text: 'Built-in',
+    text: 'Integrado',
     children: [
       {
-        text: 'Components',
+        text: 'Componentes',
         link: '/builtin/components',
       },
       {
@@ -191,13 +191,13 @@ const slidebars = [
  */
 module.exports = {
   title: 'Slidev',
-  description: 'Presentation slides for developers',
+  description: 'Apresentação de slides para desenvolvedores',
   head: [
     ['link', { rel: 'icon', type: 'image/png', href: '/favicon.png' }],
     ['meta', { name: 'author', content: 'Anthony Fu' }],
     ['meta', { property: 'og:title', content: 'Slidev' }],
     ['meta', { property: 'og:image', content: 'https://sli.dev/og-image.png' }],
-    ['meta', { property: 'og:description', content: 'Presentation slides for developers' }],
+    ['meta', { property: 'og:description', content: 'Apresentação de slides para desenvolvedores' }],
     ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
     ['meta', { name: 'twitter:creator', content: '@slidevjs' }],
     ['meta', { name: 'twitter:image', content: 'https://sli.dev/og-image.png' }],
@@ -210,36 +210,36 @@ module.exports = {
     logo: '/logo.svg',
     docsBranch: 'main',
     editLinks: true,
-    editLinkText: 'Suggest changes to this page',
+    editLinkText: 'Sugerir mudanças à essa página',
 
     algolia: {
       apiKey: '1a5c5a504139c58f428974c78c55291d',
       indexName: 'slidev',
       searchParameters: {
         // for translations maintainers: change the filter to your locale code (subdomain name)
-        facetFilters: ['language:en']
+        facetFilters: ['language:pt-BR']
       }
     },
 
     nav: [
       {
-        text: 'Guide',
+        text: 'Guia',
         items: Guide,
       },
       {
-        text: 'Theme',
+        text: 'Temas',
         items: Theme,
       },
       {
-        text: 'Customize',
+        text: 'Customizações',
         items: Customizations,
       },
       {
-        text: 'Resources',
+        text: 'Recursos',
         items: Resources,
       },
       {
-        text: 'English',
+        text: 'Português (BR)',
         items: Translations,
       },
     ],
