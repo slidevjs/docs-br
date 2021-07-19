@@ -2,7 +2,7 @@
 
 ## Layouts Internos
 
-> A documentação dessa seção continua em progresso. Até lá, você pode olhar o [código fonte](https://github.com/slidevjs/slidev/blob/main/packages/client/layouts) diretamente.
+> A documentação dessa seção continua em progresso. Até lá, você pode olhar o [código-fonte](https://github.com/slidevjs/slidev/blob/main/packages/client/layouts) diretamente.
 
 ## Layouts Customizados
 

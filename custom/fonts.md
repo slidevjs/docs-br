@@ -80,7 +80,7 @@ vai resultar em
 }
 ```
 
-Se você quiser desabilitar as fontes substitutas, configure assim
+Se você quiser desabilitar as fontes substitutas, configure assim:
 
 ```yaml
 ---

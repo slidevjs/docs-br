@@ -2,7 +2,7 @@
 
 <Environment type="client" />
 
-Slidev usa o [Vue 3](https://v3.vuejs.org/) para renderizar a aplicação no lado do cliente. Você pode extender a aplicação para adicionar plug-ins e configurações customizadas.
+Slidev usa o [Vue 3](https://v3.vuejs.org/) para renderizar a aplicação no lado do cliente. Você pode estender a aplicação para adicionar plug-ins e configurações customizadas.
 
 Crie o arquivo `./setup/main.ts` com o seguinte conteúdo:
 

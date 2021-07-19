@@ -2,7 +2,7 @@
 
 <Environment type="node" />
 
-Markdown suporta naturalmente tags HTML embutidas. Portanto, você pode estilizar seu conteudo como preferir. Para oferecer certa comodidade, nós temos o [Windi CSS](https://github.com/windicss/windicss) embutido, para que você possa estilzar o conteúdo diretamente usando classes.
+Markdown suporta naturalmente tags HTML embutidas. Portanto, você pode estilizar seu conteudo como preferir. Para oferecer certa comodidade, nós temos o [Windi CSS](https://github.com/windicss/windicss) embutido, para que você possa estilizar o conteúdo diretamente usando classes.
 
 Por exemplo:
 
@@ -21,7 +21,7 @@ O [Attributify Mode](https://windicss.org/posts/v30.html#attributify-mode) no [W
 
 ## Configurações
 
-Para configurar o Windi CSS, crie o arquivo `setup/windicss.ts` com o seguinte conteúdo para extender as configurações existentes:
+Para configurar o Windi CSS, crie o arquivo `setup/windicss.ts` com o seguinte conteúdo para estender as configurações existentes:
 
 ```ts
 // setup/windicss.ts

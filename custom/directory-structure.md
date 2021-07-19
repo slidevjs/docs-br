@@ -22,7 +22,7 @@ Todos eles são opcionais.
 
 Convenções: `./components/*.{vue,js,ts,jsx,tsx,md}`
 
-Os componentes dentro deste diretório podem ser usados diretamente no Markdown dos slides como o mesmo nome do nome do arquivo.
+Os componentes dentro deste diretório podem ser usados diretamente no Markdown dos slides como o mesmo nome do arquivo.
 
 Por exemplo:
 
@@ -89,7 +89,7 @@ No componente de layout, use `<slot/>` para o conteúdo do slide. Por exemplo:
 
 Convenções: `./public/*`
 
-Recursos neste diretórios serão servidos na rota raiz `/` durante o desevilvimento, e copiados para a raiz do diretório dist do jeito que estiverem. Leia mais sobre [o diretório `public` do Vite's](https://vitejs.dev/guide/assets.html#the-public-directory).
+Recursos neste diretórios serão servidos na rota raiz `/` durante o desenvolvimento, e copiados para a raiz do diretório dist do jeito que estiverem. Leia mais sobre [o diretório `public` do Vite's](https://vitejs.dev/guide/assets.html#the-public-directory).
 
 ## Estilo
 

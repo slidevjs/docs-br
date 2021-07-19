@@ -107,4 +107,4 @@ export default defineMonacoSetup((monaco) => {
 })
 ```
 
-> Se você estiver criando um tema para o Slidev, use o `import()` dinâmico dentro da função de configuração para obter resultados melhores.
+> Se você estiver criando um tema para o Slidev, use o `import()` dinâmico na função de configuração para obter resultados melhores.

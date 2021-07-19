@@ -2,7 +2,7 @@
 
 ## Componentes internos
 
-> A documentação dessa seção continua em progresso. Até lá, você pode olhar o [código fonte](https://github.com/slidevjs/slidev/blob/main/packages/client/builtin) diretamente.
+> A documentação dessa seção continua em progresso. Até lá, você pode olhar o [código-fonte](https://github.com/slidevjs/slidev/blob/main/packages/client/builtin) diretamente.
 
 ## Componentes customizados
 

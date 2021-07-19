@@ -29,4 +29,4 @@ Com a configuração, você pode fornecer as customizações para os atalhos men
 
 A função de configuração recebe um objeto com alguns métodos de navegação, e retorna um array contendo alguns atalhos de configuração. Confira as definições de tipos para mais detalhes.
 
-Confira [useMagicKeys | VueUse](https://vueuse.org/core/useMagicKeys/)  para mais detalhes sobre o evento de uma tecla pressionada.
+Confira [useMagicKeys | VueUse](https://vueuse.org/core/useMagicKeys/) para mais detalhes sobre o evento de uma tecla pressionada.
