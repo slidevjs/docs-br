@@ -1,69 +1,69 @@
-# Customizations
+# Customizações
 
-Slidev is fully customizable, from styling to tooling configurations. It allows you to configure the tools underneath ([Vite](/custom/config-vite), [Windi CSS](/custom/config-windicss), [Monaco](/custom/config-monaco), etc.)
+Slidev é totalmente customizável, desde estilização até configurações de ferramentas. Ele te permite configurar as ferramentas por trás ([Vite](/custom/config-vite), [Windi CSS](/custom/config-windicss), [Monaco](/custom/config-monaco), etc.)
 
-## Frontmatter Configures
+## Configurações do Frontmatter
 
-You can configure Slidev in the frontmatter of your first slide, the following shows the default value for each option.
+Você pode configurar o Slidev no frontmatter do seu primeiro slide, abaixo é mostrado os valores padrão para cada opção.
 
 ```yaml
 ---
-# theme id or package name
+# id fo tema ou nome do módulo
 theme: 'default'
-# title of your slide, will auto infer from the first header if not specified
+# título do seu slide, será automaticamente inferido do primeiro header se não for espeecificado
 title: ''
-# titleTemplate for the webpage, `%s` will be replaced by the page's title
+# titleTemplate para a página web, `%s` será substituído pelo título da página
 titleTemplate: '%s - Slidev'
 
-# enabled pdf downloading in SPA build, can also be a custom url
+# habilita o download em PDF na SPA compilada, também pode ser uma url customizada
 download: true
-# syntax highlighter, can be 'prism' or 'shiki'
+# destacador de sintaxe, pode ser 'prism' ou 'shiki'
 highlighter: 'prism'
-# enable monaco editor, default to dev only
+# habilita o editor monaco, por padrão é só no dev
 monaco: 'dev'
 
-# force color schema for the slides, could be 'auto', 'light', or 'dark'
+# força um esquema de cor aos slides, pode ser 'auto', 'light' ou 'dark'
 colorSchema: 'auto'
-# router mode for vue-router, could be "history" or "hash"
+# modo de roteamento para o vue-router, pode ser 'history' ou 'hash'
 routerMode: 'history'
-# aspect ratio for the slides
+# proporção da tela para os slides
 aspectRatio: '16/9'
-# real width of the canvas, unit in px
+# largura real da tela, unidade em px
 canvasWidth: 980
 
-# fonts will be auto imported from Google fonts
-# Learn more: https://sli.dev/custom/fonts
+# fontes serão automaticamente importadas do Google fonts
+# Saiba mais: https://sli.dev/custom/fonts
 fonts:
   sans: 'Roboto'
   serif: 'Roboto Slab'
   mono: 'Fira Code'
 
-# default frontmatter applies to all slides
+# frontmatter padrão aplicado para todos os slides
 defaults:
   layout: 'default'
   # ...
 
-# information for your slides, can be a markdown string
+# informações para seus slides, pode ser uma string em markdown
 info: |
   ## Slidev
-  My first [Slidev](http://sli.dev/) presentations!
+  Minha primeira apresentação com o [Slidev](http://sli.dev/)!
 ---
 ```
 
-Check out the [type definitions](https://github.com/slidevjs/slidev/blob/main/packages/types/src/types.ts#L29) for more options.
+Vejas as [definições de tipos](https://github.com/slidevjs/slidev/blob/main/packages/types/src/types.ts#L29) para mais opções.
 
-## Directory Structure
+## Estrutura de Diretório
 
-Slidev uses directory structure conventions to minimalize the configuration surface and make extensions in functionality flexible and intuitive.
+O Slidev emprega algumas convenções de estrutura de diretório para minimizar a superfície de configuração e tornar as extensões das funcionalidades flexíveis e intuitivas.
 
-Refer to the [Directory Structure](/custom/directory-structure) section.
+Consulte a seção [Estrutura de Diretório](/custom/directory-structure).
 
-## Config Tools
+## Configurar Ferramentas
 
-- [Highlighters](/custom/highlighters)
-- [Configure Vue](/custom/config-vue)
-- [Configure Vite](/custom/config-vite)
-- [Configure Windi CSS](/custom/config-windicss)
-- [Configure Monaco](/custom/config-monaco)
-- [Configure KaTeX](/custom/config-katex)
-- [Configure Mermaid](/custom/config-mermaid)
+- [Destacadores](/custom/highlighters)
+- [Configurar Vue](/custom/config-vue)
+- [Configurar Vite](/custom/config-vite)
+- [Configurar Windi CSS](/custom/config-windicss)
+- [Configurar Monaco](/custom/config-monaco)
+- [Configurar KaTeX](/custom/config-katex)
+- [Configurar Mermaid](/custom/config-mermaid)

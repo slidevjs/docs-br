@@ -98,7 +98,7 @@ const Customizations = [
     link: '/custom/',
   },
   {
-    text: 'Estrutura dos Diretórios',
+    text: 'Estrutura de Diretório',
     link: '/custom/directory-structure',
   },
   {
@@ -106,7 +106,7 @@ const Customizations = [
     link: '/custom/fonts',
   },
   {
-    text: 'Marcadores',
+    text: 'Destacadores',
     link: '/custom/highlighters',
   },
   {
@@ -138,7 +138,7 @@ const Customizations = [
     link: '/custom/config-shortcuts',
   },
   {
-    text: 'Vue Global Context',
+    text: 'Contexto Global do Vue',
     link: '/custom/vue-context',
   },
   {

@@ -1,80 +1,80 @@
-# Directory Structure
+# Estrutura de Diretório
 
-Slidev employs some directory structure conventions to minimize the configuration surface and to make the functionality extensions flexible and intuitive.
+O Slidev emprega algumas convenções de estrutura de diretório para minimizar a superfície de configuração e tornar as extensões das funcionalidades flexíveis e intuitivas.
 
-The basic structure is as follows:
+A estrutura básica é a seguinte:
 
 ```bash
-your-slidev/
-  ├── components/       # custom components
-  ├── layouts/          # custom layouts
-  ├── public/           # static assets
-  ├── setup/            # custom setup / hooks
-  ├── styles/           # custom style
-  ├── index.html        # injections to index.html
-  ├── slides.md         # the main slides entry
-  └── vite.config.ts   # extending vite config
+seu-slidev/
+  ├── components/       # componentes customizados
+  ├── layouts/          # layouts customizados
+  ├── public/           # recursos estáticos
+  ├── setup/            # configurações / hooks customizados
+  ├── styles/           # estilos customizados
+  ├── index.html        # injeções ao index.html
+  ├── slides.md         # a entrada principal dos slides
+  └── vite.config.ts    # extensões às configurações do vite
 ```
 
-All of them are optional.
+Todos eles são opcionais.
 
-## Components
+## Componentes
 
-Conventions: `./components/*.{vue,js,ts,jsx,tsx,md}`
+Convenções: `./components/*.{vue,js,ts,jsx,tsx,md}`
 
-Components inside this directory can be directly used in the slides Markdown with the same component name as the file name.
+Os componentes dentro deste diretório podem ser usados diretamente no Markdown dos slides como o mesmo nome do nome do arquivo.
 
-For example:
+Por exemplo:
 
 ```bash
-your-slidev/
+seu-slidev/
   ├── ...
   └── components/
-      ├── MyComponent.vue
+      ├── MeuComponente.vue
       └── HelloWorld.ts
 ```
 
 ```md
 <!-- slides.md -->
 
-# My Slide
+# Meu slide
 
-<MyComponent :count="4"/>
+<MeuComponente :count="4"/>
 
-<!-- both namings work -->
+<!-- os dois nomes funcionam -->
 
 <hello-world foo="bar">
   Slot
 </hello-world>
 ```
 
-This feature is powered by [`vite-plugin-components`](https://github.com/antfu/vite-plugin-components), learn more there.
+Esta funcionalidade é fornecida pelo [`vite-plugin-components`](https://github.com/antfu/vite-plugin-components), saiba mais por lá.
 
-Slidev also provides some [built-in components](/builtin/components) for you to use.
+Slidev também disponibiliza alguns [componentes embutidos](/builtin/components) pra você usar.
 
 ## Layouts
 
-Conventions: `./layouts/*.{vue,js,ts,jsx,tsx}`
+Convenções: `./layouts/*.{vue,js,ts,jsx,tsx}`
 
 ```
-your-slidev/
+su-slidev/
   ├── ...
   └── layouts/
       ├── cover.vue
-      └── my-cool-theme.vue
+      └── meu-tema-supimpa.vue
 ```
 
-You can use any filename for your layout. You then reference your layout in you YAML header using the filename.
+Você pode usar qualquer nome de arquivo para o seu layout. Depois é só referenciar o layout no seu cabeçalho YAML usando o nome do arquivo.
 
 ```yaml
 ---
-layout: my-cool-theme
+layout: meu-tema-supimpa
 ---
 ```
 
-If the layout you provide has the same name as a built-in layout or a theme layout, your custom layout will take precedence over the built-in/theme layout. The priority order is `local > theme > built-in`.
+Se o layout que você fez tiver o mesmo nome de um layout interno ou de algum tema, seu layout customizado terá prioridade sobre os demais. A ordem de prioridade é `local > tema > interno`.
 
-In the layout component, use `<slot/>` for the slide content. For example:
+No componente de layout, use `<slot/>` para o conteúdo do slide. Por exemplo:
 
 ```html
 <!-- default.vue -->
@@ -85,20 +85,20 @@ In the layout component, use `<slot/>` for the slide content. For example:
 </template>
 ```
 
-## Public
+## Público
 
-Conventions: `./public/*`
+Convenções: `./public/*`
 
-Assets in this directory will be served at root path `/` during dev, and copied to the root of the dist directory as-is. Read more about [Vite's `public` directory](https://vitejs.dev/guide/assets.html#the-public-directory).
+Recursos neste diretórios serão servidos na rota raiz `/` durante o desevilvimento, e copiados para a raiz do diretório dist do jeito que estiverem. Leia mais sobre [o diretório `public` do Vite's](https://vitejs.dev/guide/assets.html#the-public-directory).
 
-## Style
+## Estilo
 
-Conventions: `./style.css` | `./styles/index.{css,js,ts}`
+Convenções: `./style.css` | `./styles/index.{css,js,ts}`
 
-Files following this convention will be injected to the App root. If you need to import multiple css entries, you can create the following structure and managing the import order yourself.
+Arquivos que seguem esta convenção serão injetados na raiz do App. Se você precisar importar múltiplas entradas de css, você pode criar a seguinte estrutura e administrar a ordem de importação por conta própria.
 
 ```bash
-your-slidev/
+seu-slidev/
   ├── ...
   └── styles/
       ├── index.ts
@@ -115,7 +115,8 @@ import './code.css'
 import './layouts.css'
 ```
 
-Styles will be processed by [Windi CSS](http://windicss.org/) and [PostCSS](https://postcss.org/), so you can use css nesting and [at-directives](https://windicss.org/features/directives.html) out-of-box. For example:
+Estilos serão processados pelo [Windi CSS](http://windicss.org/) e o [PostCSS](https://postcss.org/), portanto você pode usar aninhamento de css e as [at-directives](https://windicss.org/features/directives.html) sem nenhuma configuração adicional.
+Por exemplo:
 
 ```less
 .slidev-layout {
@@ -135,15 +136,15 @@ Styles will be processed by [Windi CSS](http://windicss.org/) and [PostCSS](http
 }
 ```
 
-[Learn more about the syntax](https://windicss.org/features/directives.html).
+[Aprenda mais sobre a sintaxe](https://windicss.org/features/directives.html).
 
 ## `index.html`
 
-Conventions: `index.html`
+Convenções: `index.html`
 
-The `index.html` provides the ability to inject meta tags and/or scripts to the main `index.html`
+O `index.html` provê a habilidade de injetar meta tags e/ou script ao arquivo `index.html` principal.
 
-For example, for the following custom `index.html`:
+Por exemplo, no caso do seguinte `index.html` customizado:
 
 ```html
 <!-- ./index.html -->
@@ -153,11 +154,11 @@ For example, for the following custom `index.html`:
 </head>
 
 <body>
-  <script src="./your-scripts"></script>
+  <script src="./seus-scripts"></script>
 </body>
 ```
 
-The final hosted `index.html` will be:
+O `index.html` final hospedado será:
 
 ```html
 <!DOCTYPE html>
@@ -174,14 +175,14 @@ The final hosted `index.html` will be:
   <div id="app"></div>
   <script type="module" src="__ENTRY__"></script>
   <!-- injected body -->
-  <script src="./your-scripts"></script>
+  <script src="./seu-scripts"></script>
 </body>
 </html>
 ```
 
-## Global Layers
+## Camadas Globais
 
-Conventions: `global-top.vue` | `global-bottom.vue`
+Convenções: `global-top.vue` | `global-bottom.vue`
 
-Learn more: [Global Layers](/custom/global-layers)
+Saiba mais: [Camadas Globais](/custom/global-layers)
 

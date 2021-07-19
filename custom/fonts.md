@@ -1,61 +1,61 @@
-# Fonts
+# Fontes
 
-> Available since v0.20
+> Disponível a partir da v0.20
 
-While you can use HTML and CSS to custom the fonts and style for your slides as you want, Slidev also provides a convenient way to use them effortlessly.
+Enquanto você pode usar HTML e CSS para customizar as fontes e estilos nos seus slides como preferir, Slidev também provê um jeito conveniente de usá-los sem esforços.
 
-In your fontmatter, configure as following
+No seu fontmatter, configure assim:
 
 ```yaml
 ---
 fonts:
-  # basically the text
+  # basicamente o texto
   sans: 'Robot'
-  # use with `font-serif` css class from windicss
+  # use com a classe `font-serif` do windicss 
   serif: 'Robot Slab'
-  # for code blocks, inline code, etc.
+  # para blocos de código, códigos inline, etc.
   mono: 'Fira Code'
 ---
 ```
 
-And that's all.
+E é só isso.
 
-Fonts will be **imported automatically from [Google Fonts](https://fonts.google.com/)**. That means you can use any fonts available on Google Fonts directly.
+As fontes serão **importadas automaticamente do [Google Fonts](https://fonts.google.com/)**. Isso significa que você está livre para usar qualquer fonte disponível no Google Fonts diretamente.
 
-## Local Fonts
+## Fontes Locais
 
-By default, Slidev assumes all the fonts specified via `fonts` configurations come from Google Fonts. If you want to use local fonts, specify the `fonts.local` to opt-out the auto-importing. 
+Por padrão, Slidev assume que todas as fontes especificadas por meio da configuração `fonts` vêm do Google Fonts. Se você quiser usar fontes locais, especifique o `fonts.local` para interromper a importação automática.
 
 ```yaml
 ---
 fonts:
-  # like font-family in css, you can use `,` to separate multiple fonts for fallback
+  # assim como no font-family do css, você pode usar `,` para separar múltiplas como substitutas
   sans: 'Helvetica Neue,Robot'
-  # mark 'Helvetica Neue' as local font
+  # marca 'Helvetica Neue' como uma fonte local
   local: 'Helvetica Neue'
 ---
 ```
 
-## Weights & Italic
+## Espessura & Itálico
 
-By default, Slidev imports three weights `200`,`400`,`600` for each font. You can configure them by:
+Por padrão, Slidev importa três espessuras `200`,`400`,`600` para cada fonte. Você pode configurá-las assim:
 
 ```yaml
 ---
 fonts:
   sans: 'Robot'
-  # default
+  # padrão
   weights: '200,400,600'
-  # import italic fonts, default `false`
+  # importa fontes itálicas, o padrão é `false`
   italic: false
 ---
 ```
 
-This configuration applies to all web fonts. For more fine-grained controls of each font's weights, you will need to manually import them with [HTML](/custom/directory-structure.html#index-html) and CSS.
+Está configuração se aplica a todas as fontes da web. Para um controle mais refinado da espessura de cada fonte, você vai precisar importá-las manualmente com [HTML](/custom/directory-structure.html#index-html) e CSS.
 
-## Fallback Fonts
+## Fontes Substitutas
 
-For most of the scenarios, you only need to specify the "special font" and Slidev will append the fallback fonts for you, for example:
+Na maioria das vezes, você só vai precisar especificar a "fonte especial" e o Slidev vai incluir as fontes substitutas para você, por exemplo:
 
 ```yaml
 ---
@@ -66,7 +66,7 @@ fonts:
 ---
 ```
 
-will result in 
+vai resultar em
 
 ```css
 .font-sans {
@@ -80,7 +80,7 @@ will result in
 }
 ```
 
-If you want to disable the fallback fonts, configure as following
+Se você quiser desabilitar as fontes substitutas, configure assim
 
 ```yaml
 ---
@@ -90,12 +90,12 @@ fonts:
 ---
 ```
 
-## Providers
+## Provedores
 
-- Options: `google` | `none`
-- Default: `google`
+- Opções: `google` | `none`
+- Padrão: `google`
 
-Currently, only Google Fonts is supported, we are planned to add more providers in the future. Specify to `none` will disable the auto-importing feature entirely and treat all the fonts local.
+Atualmente, apenas o Google Fonts é suportado, nós planejamos adicionar mais provedores futuramente. Especificar para `none` desabilitará a funcionalidade de importação automática por completo e fará com que todas as fontes sejam tratadas como fontes locais.
 
 ```yaml
 ---

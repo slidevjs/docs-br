@@ -1,22 +1,22 @@
-# Highlighters
+# Destacadores
 
-Slidev comes with two syntax highlighter for you to choose from:
+Slidev vem com dois destacadores de sintaxe pra você escolher:
 
 - [Prism](https://prismjs.com/)
 - [Shiki](https://github.com/shikijs/shiki)
 
-**Prism** is one of the most popular syntax highlighters. The highlighting is done by adding token classes to the code and it's colored using CSS. You can browse through their [official themes](https://github.com/PrismJS/prism-themes), or create/customize one yourself very easily using [`prism-theme-vars`](https://github.com/antfu/prism-theme-vars).
+**Prism** é um dos destacadores de sintaxe mais populares. O destaque é feito adicionando classes de token ao código e é colorido utilizando CSS. Você pode pesquisar nos seus [temas oficiais](https://github.com/PrismJS/prism-themes), ou criar/customizar um você mesmo de forma bem fácil usando o [`prism-theme-vars`](https://github.com/antfu/prism-theme-vars).
 
-**Shiki**, on the other hand, is a TextMate grammar-powered syntax highlighter. It generates colored tokens, so there is no additional CSS needed. Since it has great grammar support, the generated colors are very accurate, just like what you will see in VS Code. Shiki also comes with [a bunch of built-in themes](https://github.com/shikijs/shiki/blob/master/docs/themes.md). The downside of Shiki is that it also requires TextMate themes (compatible with VS Code theme) to do the highlighting, which can be a bit harder to customize.
+**Shiki**, por outro lado, é um destacador de sintaxe TextMate baseado em gramática. Ele gera tokens coloridos, então não é necessário CSS adicional. Já que ele tem um ótimo suporte gramatical, as cores geradas são bem precisas, como as que você vê no VS Code. Shiki também vem com [vários temas predefinidos](https://github.com/shikijs/shiki/blob/master/docs/themes.md). O ponto negativo do Shiki é que ele também precisa de temas TextMate (compatíveis com temas do VS Code) para fazer o destaque, o que pode ser um pouco mais complicado de customizar.
 
-Slidev themes usually support both Prism and Shiki, but depending on the theme you are using, it might only support one of them.
+Os temas do Slidev geralmente suportam tanto Prism quanto Shiki, mas dependendo do temas que estiver usando, pode ser que só suporte um deles.
 
-When you have the choice, the tradeoff is basically:
+Quando você tiver escolha, a troca é basicamente:
 
-- **Prism** for easier customization
-- **Shiki** for more accurate highlighting
+- **Prism** para uma customização mais fácil
+- **Shiki** para um destaque mais preciso
 
-By default, Slidev uses Prism. You can change it by modifying your frontmatter:
+Por padrão, Slidev usa Prism. Você pode mudar isso modificando seu frontmatter:
 
 ```yaml
 ---
@@ -24,15 +24,15 @@ highlighter: shiki
 ---
 ```
 
-## Configure Prism
+## Configurar Prism
 
-To configure your Prism, you can just import the theme css or use [`prism-theme-vars`](https://github.com/antfu/prism-theme-vars) to configure themes for both light and dark mode. Refer to its docs for more details.
+Para configurar seu Prism, você pode simplesmente importar o tema css or usar o [`prism-theme-vars`](https://github.com/antfu/prism-theme-vars) para configurar temas tanto para o modo claro quanto para o escuro. Consulte suas documentações para mais detalhes.
 
-## Configure Shiki
+## Configurar Shiki
 
 <Environment type="node" />
 
-Create `./setup/shiki.ts` file with the following content
+Crie o arquivo `./setup/shiki.ts` com o seguinte conteúdo:
 
 ```ts
 /* ./setup/shiki.ts */
@@ -48,9 +48,9 @@ export default defineShikiSetup(() => {
 })
 ```
 
-Refer to [Shiki's docs](https://github.com/shikijs/shiki/blob/master/docs/themes.md#all-themes) for available theme names.
+Consulte a [documentação do Shiki](https://github.com/shikijs/shiki/blob/master/docs/themes.md#all-themes) para ver o nome dos temas disponíveis.
 
-Or if you want to use your own theme:
+Ou se você quiser usar seu próprio tema:
 
 ```ts
 /* ./setup/shiki.ts */
@@ -60,8 +60,8 @@ import { defineShikiSetup } from '@slidev/types'
 export default defineShikiSetup(async({ loadTheme }) => {
   return {
     theme: {
-      dark: await loadTheme('path/to/theme.json')),
-      light: await loadTheme('path/to/theme.json')),
+      dark: await loadTheme('caminho/para/tema.json')),
+      light: await loadTheme('caminho/para/tema.json')),
     },
   }
 })
