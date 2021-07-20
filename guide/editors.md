@@ -1,18 +1,18 @@
-# Editor Support
+# Suporte em Editores
 
-Since Slidev is using Markdown as the source entry, you can use ANY editors you love to write it.
+Já que o Slidev usa Markdown como fonte, você pode usar QUALQUER editor que adora escrevê-lo.
 
-If you want some high-level management to your slides, we have provided the following editor integrations for you!
+Se você quiser certo gerenciamento de alto-nível em seus slides, nós provemos as seguintes integrações em editores pra você!
 
-## Integrated Editor
+## Editor Integrado
 
-Slidev comes with an integrated [CodeMirror](https://codemirror.net/) editor that will instantly reload and save the changes to your file. 
+Slidev vem com um editor [CodeMirror](https://codemirror.net/) integrado que vai instantâneamente recarregar e salvar as alterações no seu arquivo.
 
-Click the <carbon-edit class="inline-icon-btn"/> button to open it.
+Clique no botão <carbon-edit class="inline-icon-btn"/> para abri-lo.
 
 ![](/screenshots/integrated-editor.png)
 
-## VS Code Extension
+## Extensão do VS Code
 
 <p align="center">
     <a href="https://github.com/slidevjs/slidev" target="_blank">
@@ -28,15 +28,15 @@ Click the <carbon-edit class="inline-icon-btn"/> button to open it.
     </a>
 </p>
 
-The VS Code extension provides some features to help you better organize your slides and have a quick overview of them.
+A extensão do VS Code fornece algumas funcionalidades para te ajudar a organizar seus slides e ter uma breve visualização deles.
 
-### Features
+### Funcionalidades
 
-- View slides in the side panel
-- Go to next / prev buttons
-- Re-ordering slides
-- Folding for slide blocks
-- Convert Markdown to HTML
+- Ver slides no painel lateral
+- Botões de ir para o próximo / anterior
+- Re-ordenação dos slides
+- Separação de blocos no slide
+- Conversão de Markdown para HTML
 
 ![](https://user-images.githubusercontent.com/11247099/116809994-cc2caa00-ab73-11eb-879f-60585747c3c9.png)
 

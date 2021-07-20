@@ -57,7 +57,7 @@ In case it's already been translated but you're wondering how to maintain it, sk
 ### guide/
 
 - [x] `animations.md` - Animations and transitions
-- [ ] `editors.md` - Editor integrations
+- [x] `editors.md` - Editor integrations
 - [ ] `exporting.md`- Exporting your slides
 - [ ] `faq.md` - Frequent Answered Questions
 - [ ] `index.md` - Getting started with Slidev
