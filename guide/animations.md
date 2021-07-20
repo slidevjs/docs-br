@@ -1,51 +1,51 @@
-# Animations
+# Animações
 
-## Click Animations
+## Animações no clique
 
 ### `v-click`
 
-To apply "click animations" for elements, you can use the `v-click` directive or `<v-click>` components
+Para aplicar "animações no clique" para os elementos, você pode usar a diretriz `v-click` ou os componentes `<v-click>`.
 
 ```md
-# Hello
+# Olá
 
-<!-- Component usage: this will be invisible until you press "next" -->
+<!-- Uso do componente: isto ficará invisível até você pressionar "próximo" -->
 <v-click>
 
-Hello World
+Olá Mundo
 
 </v-click>
 
-<!-- Directive usage: this will be invisible until you press "next" the second time -->
+<!-- Uso da diretriz: isto ficará invisível até você pressionar "próximo" pela segunda vez  -->
 <div v-click class="text-xl p-2">
 
-Hey!
+Eae!
 
 </div>
 ```
 
 ### `v-after`
 
-The usage of `v-after` is similar to `v-click` but it will turn the element visible when the previous `v-click` is triggered.
+O uso do `v-after` é similar ao do `v-click`, mas ele tornará o elemento visível quando o `v-click` anterior tiver sido disparado.
 
 ```md
-<div v-click>Hello</div>
-<div v-after>World</div>
+<div v-click>Olá</div>
+<div v-after>Mundo</div>
 ```
 
-When you click the "next" button, both `Hello` and `World` will show up together.
+Quando você clicar no botão "próximo", tanto `Olá` quanto `Mundo` aparecerão simultaneamente.
 
 ### `v-click-hide`
 
-Same as `v-click` but instead of making the element appear, it makes the element invisible after clicking.
+Tem o mesmo comportamento do `v-click`, mas em vez de fazer o elemento aparecer, faz o elemento invisível após do clique.
 
 ```md
-<div v-click-hide>Hello</div>
+<div v-click-hide>Olá</div>
 ```
 
 ### `v-clicks`
 
-`v-clicks` is only provided as a component. It's a shorthand to apply the `v-click` directive to all its child elements. It is especially useful when working with lists.
+`v-clicks` só é provido como um componente. É uma alternativa a aplicar a diretriz `v-click` em todos os elementos dentro dele. Ele é especialmente útil quando se está trabalhando com listas.
 
 ```md
 <v-clicks>
@@ -58,22 +58,22 @@ Same as `v-click` but instead of making the element appear, it makes the element
 </v-clicks>
 ```
 
-An item will become visible each time you click "next".
+Um item se tornará visível a cada vez que você clicar em "próximo".
 
-### Custom Clicks Count
+### Contagem de Cliques Customizadas
 
-By default, Slidev counts how many steps are needed before going to the next slide. You can override this setting by passing the `clicks` frontmatter option:
+Por padrão, Slidev calcula quantos passos são necessários antes de passar para o próximo slide. Você pode sobrepor está configuração informando a propriedade `clicks` no frontmatter:
 
 ```yaml
 ---
-# 10 clicks in this slide, before going to the next
+# 10 cliques neste slide, antes de passar para o próximo
 clicks: 10
 ---
 ```
 
-### Ordering
+### Ordenação
 
-Passing the click index to your directives, you can customize the order of the revealing
+Passando o índice o clique nas suas diretrizes, você pode customizar a ordem dos aparecimentos.
 
 ```md
 <div v-click>1</div>
@@ -82,7 +82,7 @@ Passing the click index to your directives, you can customize the order of the r
 ```
 
 ```md
-<!-- the order is reversed -->
+<!-- a ordem é inversa -->
 <div v-click="3">1</div>
 <div v-click="2">2</div>
 <div v-click="1">3</div>
@@ -93,30 +93,30 @@ Passing the click index to your directives, you can customize the order of the r
 clicks: 3
 ---
 
-<!-- visible after 3 clicks -->
+<!-- visível após 3 cliques -->
 <v-clicks at="3">
-  <div>Hi</div>
+  <div>Oi</div>
 </v-clicks>
 ```
 
-### Element Transitions
+### Transição de Elementos
 
-When you apply the `v-click` directive to your elements, it will attach the class name `slidev-vclick-target` to it. When the elements are hidden, the class name `slidev-vclick-hidden` will also be attached. For example:
-
-```html
-<div class="slidev-vclick-target slidev-vclick-hidden">Text</div>
-```
-
-After a click, it will become
+Quando você aplica a diretriz `v-click` aos seus elementos, a eles serão anexados a classe `slidev-vclick-target`. Quando os elementos estão ocultos, a classe `slidev-vclick-hidden` também será anexada. Por exemplo:
 
 ```html
-<div class="slidev-vclick-target">Text</div>
+<div class="slidev-vclick-target slidev-vclick-hidden">Texto</div>
 ```
 
-By default, a subtle opacity transition is applied to those classes:
+Após o clique, isto se tornará
+
+```html
+<div class="slidev-vclick-target">Texto</div>
+```
+
+Por padrão, uma transição sutíl de opacidade é aplicada à essas classes:
 
 ```css
-// the default
+// o padrão
 
 .slidev-vclick-target {
   transition: opacity 100ms ease;
@@ -128,9 +128,9 @@ By default, a subtle opacity transition is applied to those classes:
 }
 ```
 
-You can override them to customize the transition effects in your custom stylesheets. 
+Você pode substituí-las no seu CSS customizado para alterar os efeitos de transição. 
 
-For example, you can achieve the scaling up transitions by: 
+Por exemplo, você pode conseguir uma transição de aumentar a escala assim:
 
 ```css
 // styles.css
@@ -144,7 +144,7 @@ For example, you can achieve the scaling up transitions by:
 }
 ```
 
-To specify animations for only certain slide or layout
+Para especificar animações para um único slide ou layout definido:
 
 ```scss
 .slidev-page-7,
@@ -159,11 +159,11 @@ To specify animations for only certain slide or layout
 }
 ```
 
-Learn more about [customizing styles](/custom/directory-structure#style).
+Aprenda mais sobre a [customização de estilo](/custom/directory-structure#estilo).
 
-## Motion
+## Movimento
 
-Slidev has [@vueuse/motion](https://motion.vueuse.org/) built-in. You can use the `v-motion` directive to any elements to make apply motion on them. For example
+Slidev tem o [@vueuse/motion](https://motion.vueuse.org/) integrado. Você pode usar a diretriz `v-motion` em qualquer elemento para aplicar movimento a ele. Por exemplo:
 
 ```html
 <div
@@ -174,9 +174,9 @@ Slidev has [@vueuse/motion](https://motion.vueuse.org/) built-in. You can use th
 </div>
 ```
 
-The text `Slidev` will move from `-80px` to its original position on initialization.
+O texto `Slidev` se moverá de `-80px` até sua posição original na inicialização.
 
-> Note: Slidev preloads the next slide for performance, which means the animations might start before you navigate to the page. To get it works properly, you can disable the preloading for the particular slide
+> Nota: Slidev pré-carrega o próximo slide por performance, o que significa que as animações podem começar antes de você navegar até a página. Para fazer as animações funcionarem corretamente, você pode desabilitar o pré-carregamento no slide em particular.
 >
 > ```md
 > ---
@@ -184,7 +184,7 @@ The text `Slidev` will move from `-80px` to its original position on initializat
 > ---
 > ```
 >
-> Or control the element life-cycle with `v-if` to have fine-grained controls
+> Ou manipular o ciclo de vida do elemento com o `v-if` para ter mais controle:
 >
 > ```html
 > <div
@@ -196,8 +196,8 @@ The text `Slidev` will move from `-80px` to its original position on initializat
 > </div>
 > ```
 
-Learn mode: [Demo](https://sli.dev/demo/starter/7) | [@vueuse/motion](https://motion.vueuse.org/) | [v-motion](https://motion.vueuse.org/directive-usage.html) | [Presets](https://motion.vueuse.org/presets.html)
+Saiba mais: [Demonstração](https://sli.dev/demo/starter/7) | [@vueuse/motion](https://motion.vueuse.org/) | [v-motion](https://motion.vueuse.org/directive-usage.html) | [Presets](https://motion.vueuse.org/presets.html)
 
-## Pages Transitions
+## Transições de Página
 
-> Built-in support for slides is NOT YET provided in the current version. We are planning to add support for them in the next major version. Before that, you can still use your custom styles and libraries to do that.
+> O suporte integrado para transição entre slides AINDA NÂO é provido na versão atual. Estamos planejando adicionar o suporte na próxima versão principal. Até lá, você ainda pode usar estilos customizados e bibliotecas para fazer isso.

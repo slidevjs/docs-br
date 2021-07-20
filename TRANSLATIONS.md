@@ -56,7 +56,7 @@ In case it's already been translated but you're wondering how to maintain it, sk
 
 ### guide/
 
-- [ ] `animations.md` - Animations and transitions
+- [x] `animations.md` - Animations and transitions
 - [ ] `editors.md` - Editor integrations
 - [ ] `exporting.md`- Exporting your slides
 - [ ] `faq.md` - Frequent Answered Questions
