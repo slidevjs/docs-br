@@ -2,62 +2,62 @@
 
 ## Grids
 
-Since Slidev is based on the Web, you can apply any grid layouts as you want. [CSS Grids](https://css-tricks.com/snippets/css/complete-guide-grid/), [flexboxes](https://css-tricks.com/snippets/css/a-guide-to-flexbox/), or even [Masonry](https://css-tricks.com/native-css-masonry-layout-in-css-grid/), you get the full controls.
+Já que o Slidev é baseado na Web, você pode aplicar qualquer layout de grid como quiser. [CSS Grids](https://css-tricks.com/snippets/css/complete-guide-grid/), [flexboxes](https://css-tricks.com/snippets/css/a-guide-to-flexbox/), ou até [Masonry](https://css-tricks.com/native-css-masonry-layout-in-css-grid/), você tem total controle.
 
-Since we have [Windi CSS](https://windicss.org/) built-in, here is one simple way for you to reference:
+Com nós temos o [Windi CSS](https://windicss.org/) integrado, aqui vai um jeito simples de você fazer isso:
 
 ```html
 <div class="grid grid-cols-2 gap-4">
 <div>
 
-The first column
+A primeira coluna
 
 </div>
 <div>
 
-The second column
+A segunda coluna
 
 </div>
 </div>
 ```
 
-Go further, you can customize the size of each columns like:
+Vá além, você pode customizar o tamanho de cada coluna assim:
 
 ```html
 <div class="grid grid-cols-[200px,1fr,10%] gap-4">
 <div>
 
-The first column (200px)
+A primeira coluna (200px)
 
 </div>
 <div>
 
-The second column (auto fit)
+A segunda coluna (ajuste automático)
 
 </div>
 <div>
 
-The third column (10% width to parent container)
+A terceira coluna (10% da largura do elemento pai)
 
 </div>
 </div>
 ```
 
-Learn more about [Windi CSS Grids](https://windicss.org/utilities/grid.html).
+Aprenda mais sobre [Windi CSS Grids](https://windicss.org/utilities/grid.html).
 
-## Positioning
+## Posicionamento
 
-Slides are defined in fixed sizes (default `980x552px`) and scale to fit with the user screen. You can safely use absolute position in your slides as they will scale along with the screen.
+Os slides são definidos em um tamanho fixo (padrão `980x552px`) e se ajusta para caber na tela do usuário. Você pode tranquilamente usar posições absolutas em seus slides e elas serão expandidas com a tela.
 
-For example:
+Por exemplo:
 
 ```html
 <div class="absolute left-30px bottom-30px">
-This is a left-bottom aligned footer
+Este é um rodapé alinhado no canto inferior esquerdo
 </div>
 ```
 
-To change the canvas' actual size, you can pass the `canvasWidth` options in your first frontmatter:
+Para alterar o tamanho do canvas em si, você pode passar a opção `canvasWidth` no seu primeiro frontmatter:
 
 ```yaml
 ---
@@ -65,16 +65,16 @@ canvasWidth: 800
 ---
 ```
 
-## Font Size
+## Tamanho da Fonte
 
-If you feel the font size in your slides are too small, you can adjust it in a few ways:
+Se você sentir que o tamanho da fonte nos seus slides estão muito pequenas, você pode ajustá-lo de algumas formas:
 
-### Override Local Style
+### Substituir o Estilo Local
 
-You can override styles for each slide with the inlined `<style>` tag.
+Você pode sobrepor estilos em cada slide com a tag `<style>`.
 
 ```md
-# Page 1
+# Página 1
 
 <style>
 h1 {
@@ -84,16 +84,16 @@ h1 {
 
 ---
 
-# Page 2
+# Página 2
 
-This will not be affected.
+Este aqui não será afetado.
 ```
 
-Learn more: [Embedded Styles](/guide/syntax.html#embedded-styles)
+Saiba mais: [Estilos Integrados](/guide/syntax.html#estilos-integrados)
 
-### Override Global Style
+### Substituir o Estilo Global
 
-You can provide custom global styles by creating `./style.css`, for example
+Você pode fornecer estilos globais customizados criando um arquivo `./style.css`, por exemplo:
 
 ```css
 /* style.css */ 
@@ -103,23 +103,23 @@ h1 {
 }
 ```
 
-Learn more: [Global Style](/custom/directory-structure.html#style)
+Saiba mais: [Estilo Global](/custom/directory-structure.html#estilo)
 
-### Scale the Canvas
+### Dimensionar a Área
 
-Changing the canvas' actual size will scale all your contents(text, images, components, etc.) and slides
+Mudar o tamanho da área (canvas) vai escalar todos os seus conteúdos (textos, imagens, componentes, etc.) e slides.
 
 ```yaml
 ---
-# default: 980
-# since the canvas gets smaller, the visual size will become larger
+# padrão: 980
+# como a área fica menor, o tamanho visual vai ficar maior
 canvasWidth: 800
 ---
 ```
 
-### Use Transform
+### Usar o Transform
 
-We provide a built-in component `<Transform />`, which is a thin wrapper of CSS transform property.
+Nós disponibilizamos um componente integrado chamado `<Transform />`, que é uma pequena altenativa que engloba a propriedade transform do CSS.
 
 ```md
 <Transform :scale="1.4">
