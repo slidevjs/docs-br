@@ -64,7 +64,7 @@ In case it's already been translated but you're wondering how to maintain it, sk
 - [x] `index.md` - `Getting started with Slidev
 - [x] `install.md` - Installing Slidev
 - [x] `navigation.md` - Navigation across slides
-- [ ] `presenter-mode.md`- Toggling presenter mode
+- [x] `presenter-mode.md`- Toggling presenter mode
 - [ ] `recording.md`- Recording your presentation
 - [ ] `syntax.md` - Markdown syntax
 - [ ] `why.md` - _Why Slidev?_
