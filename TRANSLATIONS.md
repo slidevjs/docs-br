@@ -29,6 +29,7 @@ In case it's already been translated but you're wondering how to maintain it, sk
 ### .vitepress/
 
 - [x] `config.js` - Sitemap
+- [x] `/theme/components/HomeHero.vue` - The hero from the mainpage
 - [x] `/theme/components/WorkingInProgress.vue` - WIP notice shown in mainpage
 - [x] `/theme/components/demo/Demo.vue` - Animated demo shown in mainpage
 - [x] `/theme/components/Environment.vue` - Describes the environment of a setting.
