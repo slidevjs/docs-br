@@ -1,33 +1,33 @@
-# Navigation
+# Navegação
 
-## Navigation Bar
+## Barra de Navegação
 
-Move your mouse to the left bottom corner of Slidev page, the navigation bar will be appeared.
+Mova seu mouse para o canto inferior esquerdo da página do Slidev, a barra de navegação aparecerá.
 
 ![](/screenshots/navbar.png)
 
-| Shortcuts | Button | Description |
-| --- | --- | --- |
-| <kbd>f</kbd> | <carbon-maximize class="inline-icon-btn"/> <carbon-minimize class="inline-icon-btn"/> | toggle fullscreen |
-| <kbd>right</kbd> / <kbd>space</kbd> | <carbon-arrow-right class="inline-icon-btn"/> | next animation or slide |
-| <kbd>left</kbd> | <carbon-arrow-left class="inline-icon-btn"/> | previous animation or slide |
-| <kbd>up</kbd> | - |  previous slide |
-| <kbd>down</kbd> | - | next slide |
-| <kbd>o</kbd> | <carbon-apps class="inline-icon-btn"/> | toggle [slides overview](#slides-overview) |
-| <kbd>d</kbd> | <carbon-sun class="inline-icon-btn"/> <carbon-moon class="inline-icon-btn"/> | toggle dark mode |
-| - | <carbon-user-avatar class="inline-icon-btn"/> | toggle [camera view](/guide/recording#camera-view) |
-| - | <carbon-video class="inline-icon-btn"/> | [recording](/guide/recording#camera-view) |
-| - | <carbon-user-speaker class="inline-icon-btn"/> | enter [presenter mode](/guide/presenter-mode) |
-| - | <carbon-edit class="inline-icon-btn"/> | toggle [integrated editor](/guide/editors#integrated-editor) |
-| - | <carbon-download class="inline-icon-btn"/> | download slides (only appear in [SPA build](/guide/exporting#single-page-application-spa)) |
-| - | <carbon-information class="inline-icon-btn"/> | show information about the slides |
-| - | <carbon-settings-adjust class="inline-icon-btn"/> | show settings menu |
-| <kbd>g</kbd> | - | show goto... |
+| Atalhos                                | Botão                                                                                 | Descrição                                                                                              |
+| -------------------------------------- | ------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ |
+| <kbd>f</kbd>                           | <carbon-maximize class="inline-icon-btn"/> <carbon-minimize class="inline-icon-btn"/> | alterna a tela cheia                                                                                   |
+| <kbd>direita</kbd> / <kbd>espaço</kbd> | <carbon-arrow-right class="inline-icon-btn"/>                                         | próxima animação ou slide                                                                              |
+| <kbd>esquerda</kbd>                    | <carbon-arrow-left class="inline-icon-btn"/>                                          | animação ou slide anterior                                                                             |
+| <kbd>cima</kbd>                        | -                                                                                     | slide anterior                                                                                         |
+| <kbd>baixo</kbd>                       | -                                                                                     | próximo slide                                                                                          |
+| <kbd>o</kbd>                           | <carbon-apps class="inline-icon-btn"/>                                                | alterna a [visualização dos slides](#visualizacao-dos-slides)                                          |
+| <kbd>d</kbd>                           | <carbon-sun class="inline-icon-btn"/> <carbon-moon class="inline-icon-btn"/>          | alterna o modo escuro                                                                                  |
+| -                                      | <carbon-user-avatar class="inline-icon-btn"/>                                         | alterna a [visão da câmera](/guide/recording#visao-da-camera)                                          |
+| -                                      | <carbon-video class="inline-icon-btn"/>                                               | [gravação](/guide/recording)                                                                           |
+| -                                      | <carbon-user-speaker class="inline-icon-btn"/>                                        | entra no [modo apresentador](/guide/presenter-mode)                                                    |
+| -                                      | <carbon-edit class="inline-icon-btn"/>                                                | alterna o [editor integrado](/guide/editors#editor-integrado)                                          |
+| -                                      | <carbon-download class="inline-icon-btn"/>                                            | faz download dos slides (só aparece na [compilação SPA](/guide/exporting#single-page-application-spa)) |
+| -                                      | <carbon-information class="inline-icon-btn"/>                                         | mostra informações sobre os slides                                                                     |
+| -                                      | <carbon-settings-adjust class="inline-icon-btn"/>                                     | mostra o menu de configurações                                                                         |
+| <kbd>g</kbd>                           | -                                                                                     | mostra o ir para...                                                                                    |
 
 <br>
 
-## Slides Overview
+## Visualização dos Slides
 
-By pressing <kbd>o</kbd> or clicking the <carbon-apps class="inline-icon-btn"/> button in the navigation bar, you can have the overview of your slides so you can jump between them easily. 
+Ao apertar <kbd>o</kbd> ou clicar no botão <carbon-apps class="inline-icon-btn"/> na barra de navegação, você pode ter uma visão geral dos slides para que você possa alterná-los facilmente.
 
 ![](/screenshots/slides-overview.png)

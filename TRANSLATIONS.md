@@ -63,7 +63,7 @@ In case it's already been translated but you're wondering how to maintain it, sk
 - [x] `faq.md` - Frequent Answered Questions
 - [x] `index.md` - `Getting started with Slidev
 - [x] `install.md` - Installing Slidev
-- [ ] `navigation.md` - Navigation across slides
+- [x] `navigation.md` - Navigation across slides
 - [ ] `presenter-mode.md`- Toggling presenter mode
 - [ ] `recording.md`- Recording your presentation
 - [ ] `syntax.md` - Markdown syntax
