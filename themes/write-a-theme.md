@@ -1,34 +1,34 @@
-# Write a Theme
+# Escrever um Tema
 
-To get started, we recommend you use our generator for scaffolding your first theme
+Pra começar, nós te recomendamos usar nosso gerador como base para o seu primeiro tema:
 
 ```bash
 $ npm init slidev-theme
 ```
 
-Then you can modify and play with it. You can also refer to the [official themes](/themes/gallery) as examples.
+Depois você pode modificar e brincar com o tema. Você também pode consultar os [temas oficiais](/themes/gallery) como exemplos.
 
-## Capability
+## Capacidade
 
-A theme can contribute to the following points:
+Um tema pode contribuir nos seguintes pontos:
 
-- Global styles
-- Provide default configurations (fonts, color schema, highlighters, etc.)
-- Provide custom layouts or override the existing one
-- Provide custom components or override the existing one
-- Extend Windi CSS configurations
-- Configure tools like Monaco and Prism
+- Estilos globais
+- Prover configurações padrão (fontes, esquema de cor, destacadores, etc.)
+- Prover layouts customizados ou sobrepor um existentes
+- Prover componentes customizados ou sobrepor existentes
+- Extender as configurações do Windi CSS
+- Configurar ferramentas como Monaco e Prism
 
-## Conventions
+## Convenções
 
-Themes are published to npm registry, and they should follow the conventions below:
+Temas são publicados no registro do npm, e eles devem seguir as seguintes convenções:
 
-- Package name should start with `slidev-theme-`, for example: `slidev-theme-awesome`
-- Add `slidev-theme` and `slidev` in the `keywords` field of your `package.json`
+- Nome do pacote deve começar com `slidev-theme-`, por exemplo: `slidev-theme-incrivel`
+- Adicione `slidev-theme` e `slidev` no campo `keywords` do seu `package.json`
 
-## Setup
+## Configuração
 
-To set up the testing playground for your theme, you can create `example.md` with the following frontmatter, to tell Slidev you are using the current directory as a theme.
+Para configurar o ambiente de teste para o seu tema, você pode criar um arquivo `example.md` com o seguinte frontmatter, para dizer ao Slidev que você está usando o diretório atual como um tema.
 
 ```md
 ---
@@ -36,7 +36,7 @@ theme: ./
 ---
 ```
 
-Optionally, you can also add some scripts to your `packages.json`
+Opcionalmente, você também pode adicionar alguns scripts ao seu `packages.json`
 
 ```json
 // package.json
@@ -50,15 +50,15 @@ Optionally, you can also add some scripts to your `packages.json`
 }
 ```
 
-To publish your theme, simply run `npm publish` and you are good to go. There is no build process required (which means you can directly publish `.vue` and `.ts` files, Slidev is smart enough to understand them).
+Para publicar seu tema, simplesmente execute `npm publish` e pronto. Não há nenhum processo de compilação necessário (o que significa que você pode publicar arquivos `.vue` e `.ts` diretamente, Slidev é esperto o bastante para entendê-los).
 
-Theme contribution points follow the same conventions as local customization, please refer to [the docs for the naming conventions](/custom/). 
+Os pontos de contribuição do tema seguem as mesmas convenções das customizações locais, consulte [a documentação das convenções de nome](/custom/).
 
-## Default Configurations
+## Configurações Padrão
 
-> Available since v0.19
+> Disponível desde a v0.19
 
-A theme can provide default [configurations](/custom/#configuracoes-do-frontmatter) via `package.json`.
+Um tema pode prover [configurações](/custom/#configuracoes-do-frontmatter) padrão por meio do `package.json`.
 
 ```json
 // package.json
@@ -76,66 +76,66 @@ A theme can provide default [configurations](/custom/#configuracoes-do-frontmatt
 }
 ```
 
-Fonts will be auto imported from [Google Fonts](https://fonts.google.com/).
+Fontes serão automaticamente importadas do [Google Fonts](https://fonts.google.com/).
 
-Learn more about [fonts](/custom/fonts) and [frontmatter configurations](/custom/#configuracoes-do-frontmatter).
+Aprenda mais sobre [fontes](/custom/fonts) e [configurações do frontmatter](/custom/#configuracoes-do-frontmatter).
 
-## Theme Metadata
+## Metadados do Tema
 
-### Color Schema
+### Esquema de Cores
 
-By default, Slidev assumes themes support both light mode and dark mode. If you only want your theme be presented in a designed color schema, you will need to specify it explicitly in `package.json`
+Por padrão, o Slidev assume que os temas suportam tanto o modo claro quanto o escuro. se você quiser que seu tema seja apresentado em apenas um esquema de cores, você vai precisar especificar isto explicitamente no `package.json`:
 
 ```json
 // package.json
 {
-  "name": "slidev-theme-my-cool-theme",
+  "name": "slidev-theme-meu-tema-legal",
   "keywords": [
     "slidev-theme",
     "slidev"
   ],
   "slidev": {
-    "colorSchema": "light" // or "dark" or "both"
+    "colorSchema": "light" // ou "dark" ou "both"
   }
 }
 ```
 
-To access the dark mode when creating your theme styles, you can wrap the dark-mode-specific css inside a `dark` class:
+Para acessar o modo escuro quando estiver criando os estilos do seu tema, você pode usar a especificação de modo escuro do CSS com a classe `dark`:
 
 ```css
-/* general css here */
+/* css generalista aqui */
 
 html:not(.dark) {
-  /* light mode css here */
+  /* css para modo claro aqui */
 }
 
 html.dark {
-  /* dark mode css here */
+  /* css para modo escuro aqui */
 }
 ```
 
-Slidev toggles a `dark` class on the page's `html` element for switching color schema.
+O Slidev alterna a classe `dark` no elemento `html` da página para trocar o esquema de cores.
 
-### Highlighter
+### Destacador
 
-Syntax highlighting colors are also provided in the theme. We support both [Prism](https://prismjs.com/) and [Shiki](https://github.com/shikijs/shiki). For more information please refer to [the syntax highlighting docs](/custom/highlighters).
+As cores do destacador de sintaxe também são provenientes do tema. Nós suportamos tanto o [Prism](https://prismjs.com/) quanto o [Shiki](https://github.com/shikijs/shiki). Para mais informação consulte a [documentação do destaque de sintaxe](/custom/highlighters).
 
-You can support either one of them, or both. Refer to the default theme for configurations examples [`./styles/prism.css`](https://github.com/slidevjs/slidev/blob/main/packages/theme-default/styles/prism.css) / [`./setup/shiki.ts`](https://github.com/slidevjs/slidev/blob/main/packages/theme-default/setup/shiki.ts).
+Você pode suportar um deles, ou os dois. Consulte os exemplos de configuração padrão de tema [`./styles/prism.css`](https://github.com/slidevjs/slidev/blob/main/packages/theme-default/styles/prism.css) / [`./setup/shiki.ts`](https://github.com/slidevjs/slidev/blob/main/packages/theme-default/setup/shiki.ts).
 
-Also, remember to specify the supported highlighters in your `package.json`
+Além disso, lembre-se de especificar os destacadores suportados no seu `package.json`:
 
 ```json
 // package.json
 {
   "slidev": {
-    "highlighter": "shiki" // or "prism" or "all"
+    "highlighter": "shiki" // ou "prism" ou "all"
   }
 }
 ```
 
-### Slidev Version
+### Versão do Slidev
 
-If the theme is relying on a specific feature of Slidev that are newly introduced, you can set the minimal Slidev version required to have your theme working properly:
+Se o tema estiver usando um recurso específico do Slidev que foi introduzido recentemente, você pode definir a versão mínima do Slidev necessária para ter o seu tema funcionando bem:
 
 ```json
 // package.json
@@ -146,4 +146,4 @@ If the theme is relying on a specific feature of Slidev that are newly introduce
 }
 ```
 
-If users are using older versions of Slidev, an error will be thrown.
+Se usuário estiverem usando versões mais antigas do Slidev, será gerado um erro.

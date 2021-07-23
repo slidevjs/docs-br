@@ -77,7 +77,7 @@ In case it's already been translated but you're wondering how to maintain it, sk
 
 - [x] `gallery.md` - Theme gallery
 - [x] `use.md` - How to use Slidev themes
-- [ ] `write-a-theme.md` - Write your own theme
+- [x] `write-a-theme.md` - Write your own theme
 
 ## Publishing your translations
 
