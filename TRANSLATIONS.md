@@ -76,12 +76,12 @@ In case it's already been translated but you're wondering how to maintain it, sk
 ### themes/
 
 - [x] `gallery.md` - Theme gallery
-- [ ] `use.md` - How to use Slidev themes
+- [x] `use.md` - How to use Slidev themes
 - [ ] `write-a-theme.md` - Write your own theme
 
 ## Publishing your translations
 
-- [ ] When you finish the translation (at least 90%), `@antfu` in the Discord and we will invite you to the org and make the translation official.
+- [x] When you finish the translation (at least 90%), `@antfu` in the Discord and we will invite you to the org and make the translation official.
 - [ ] Once the transferring is done, we will set up the subdomain, auto-deployment, and a daily sync-up bot to keep the translation up-to-date with the latest English docs.
 - [ ] The site is live, and we will send a shout-out tweet on [our Twitter account](https://twitter.com/Slidevjs).
 

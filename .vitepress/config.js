@@ -64,7 +64,11 @@ const Theme = [
 
 const Translations = [
   {
+    text: 'Português (BR)',
+  },
+  {
     text: 'English',
+    link: 'https://sli.dev{{pathname}}',
   },
   {
     text: '简体中文',
