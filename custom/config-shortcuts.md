@@ -25,7 +25,7 @@ export default defineShortcutsSetup((nav: NavOperations) => {
 })
 ```
 
-Com a configuração, você pode fornecer as customizações para os atalhos mencionados em [Navegação](/guide/navigation#navigation-bar). A configuração acima vincula a próxima animação ou slide ao <kbd>enter</kbd> e a animação ou slide anterior ao <kbd>backspace</kbd>.
+Com a configuração, você pode fornecer as customizações para os atalhos mencionados em [Navegação](/guide/navigation#barra-de-navegacao). A configuração acima vincula a próxima animação ou slide ao <kbd>enter</kbd> e a animação ou slide anterior ao <kbd>backspace</kbd>.
 
 A função de configuração recebe um objeto com alguns métodos de navegação, e retorna um array contendo alguns atalhos de configuração. Confira as definições de tipos para mais detalhes.
 

@@ -11,14 +11,14 @@ Você pode saber mais sobre a lógica por trás do projeto na seção [Por que S
 ### Funcionalidades
 
 - 📝 [**Baseado em markdown**](/guide/syntax.html) - use seus editores fluxos de trabalho favoritos
-- 🧑‍💻 [**Feito para desenvolvedores**](/guide/syntax.html#code-blocks) - destaque de sintaxe integrado, desenvolvimento de código em tempo real, etc.
+- 🧑‍💻 [**Feito para desenvolvedores**](/guide/syntax.html#blocos-de-codigo) - destaque de sintaxe integrado, desenvolvimento de código em tempo real, etc.
 - 🎨 [**Suporte a Temas**](/themes/gallery.html) - temas podem ser compartilhados e usados com pacotes do npm
-- 🌈 [**Estiloso**](/guide/syntax.html#embedded-styles) - utilidades do [Windi CSS](https://windicss.org/) sob demanda, fácil incorporação de CSS
+- 🌈 [**Estiloso**](/guide/syntax.html#estilos-embutidos) - utilidades do [Windi CSS](https://windicss.org/) sob demanda, fácil incorporação de CSS
 - 🤹 [**Interativo**](/custom/directory-structure.html#componentes) - suporta perfeitamente a incorporação de componentes do Vue
 - 🎙 [**Modo Apresentador**](/guide/presenter-mode.html) - use outra janela, ou até mesmo seu celular para controlar seus slides
 - 🧮 [**LaTeX**](/guide/syntax.html#latex) - suporte integrado à equações matemáticas em LaTeX
-- 📰 [**Diagramas**](/guide/syntax.html#diagrams) - cria diagramas com descrições em texto
-- 🌟 [**Ícones**](/guide/syntax.html#icons) - acesse ícones de qualquer conjunto de ícones diretamente
+- 📰 [**Diagramas**](/guide/syntax.html#diagramas) - cria diagramas com descrições em texto
+- 🌟 [**Ícones**](/guide/syntax.html#icones) - acesse ícones de qualquer conjunto de ícones diretamente
 - 💻 [**Editores**](/guide/editors.html) - editor integrado, ou uma [extensão para o VS Code](https://github.com/slidevjs/slidev-vscode)
 - 🎥 [**Gravação**](/guide/recording.html) - gravação integrada e visão da câmera
 - 📤 [**Portátil**](/guide/exporting.html) - exporte para PDF, PNGs, ou até mesmo uma aplicação SPA hospedável

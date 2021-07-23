@@ -8,7 +8,7 @@
 
 Crie um diretório `components/` no diretório raiz do projeto, e simplesmente insira seu componente customizado do Vue lá dentro, depois disso você poderá usá-lo com o mesmo nome no seu arquivo markdown!
 
-Leia mais na seção [Customização](/custom/directory-structure#components).
+Leia mais na seção [Customização](/custom/directory-structure#componentes).
 
 ## Componentes providos por temas
 

@@ -58,7 +58,7 @@ Theme contribution points follow the same conventions as local customization, pl
 
 > Available since v0.19
 
-A theme can provide default [configurations](/custom/#frontmatter-configures) via `package.json`.
+A theme can provide default [configurations](/custom/#configuracoes-do-frontmatter) via `package.json`.
 
 ```json
 // package.json
@@ -78,7 +78,7 @@ A theme can provide default [configurations](/custom/#frontmatter-configures) vi
 
 Fonts will be auto imported from [Google Fonts](https://fonts.google.com/).
 
-Learn more about [fonts](/custom/fonts) and [frontmatter configurations](/custom/#frontmatter-configures).
+Learn more about [fonts](/custom/fonts) and [frontmatter configurations](/custom/#configuracoes-do-frontmatter).
 
 ## Theme Metadata
 

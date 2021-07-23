@@ -49,7 +49,7 @@ Para mais propriedades disponíveis, consulte as exportações do arquivo [nav.t
 
 ### `$slidev.configs`
 
-Um objeto reativo que contém as [configurações do primeiro frontmatter](/custom/#frontmatter-configures) do seu `slides.md`. Por exemplo:
+Um objeto reativo que contém as [configurações do primeiro frontmatter](/custom/#configuracoes-do-frontmatter) do seu `slides.md`. Por exemplo:
 
 ```yaml
 ---
