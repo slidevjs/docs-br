@@ -66,8 +66,8 @@ In case it's already been translated but you're wondering how to maintain it, sk
 - [x] `navigation.md` - Navigation across slides
 - [x] `presenter-mode.md`- Toggling presenter mode
 - [x] `recording.md`- Recording your presentation
-- [ ] `syntax.md` - Markdown syntax
-- [ ] `why.md` - _Why Slidev?_
+- [x] `syntax.md` - Markdown syntax
+- [x] `why.md` - _Why Slidev?_
 
 ### resources/
 
