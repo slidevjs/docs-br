@@ -4,7 +4,7 @@
 
 Camadas globais te permitem ter componentes customizados que **permanecem** pelos slides. Isto pode ser útil para ter rodapés, animações entre os slides, efeitos globais, etc.
 
-Slidev disponibiliza duas camadas para está funcionalidade, crie o arquivo `global-top.vue` ou `global-bottom.vue` na raiz do projeto e elas serão inseridas automaticamente.
+O Slidev disponibiliza duas camadas para está funcionalidade, crie o arquivo `global-top.vue` ou `global-bottom.vue` na raiz do projeto e elas serão inseridas automaticamente.
 
 Relacionamento das Camadas:
 

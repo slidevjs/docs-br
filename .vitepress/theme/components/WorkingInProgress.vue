@@ -17,7 +17,7 @@ const dismissed = useStorage('sldiev-docs-wip-dismissed', false)
     border="~ orange-400 rounded-md"
   >
     <div class="m-auto">
-      Slidev ainda está em forte desenvolvimento. A API e os usos ainda não estão imutávelmente definidos.
+      O Slidev ainda está em forte desenvolvimento. A API e os usos ainda não estão imutávelmente definidos.
     </div>
     <div
       class="cursor-pointer"

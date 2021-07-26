@@ -1,6 +1,6 @@
 # Destacadores
 
-Slidev vem com dois destacadores de sintaxe pra você escolher:
+O Slidev vem com dois destacadores de sintaxe pra você escolher:
 
 - [Prism](https://prismjs.com/)
 - [Shiki](https://github.com/shikijs/shiki)
@@ -16,7 +16,7 @@ Quando você tiver escolha, a troca é basicamente:
 - **Prism** para uma customização mais fácil
 - **Shiki** para um destaque mais preciso
 
-Por padrão, Slidev usa Prism. Você pode mudar isso modificando seu frontmatter:
+Por padrão, o Slidev usa Prism. Você pode mudar isso modificando seu frontmatter:
 
 ```yaml
 ---

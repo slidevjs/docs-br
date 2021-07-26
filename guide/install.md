@@ -24,7 +24,7 @@ A apresentação também contém a configuração básica e uma breve demonstra�
 
 ## Instalação Manual
 
-Se ainda assim preferir instalar o Slidev manualente ou se quiser integrá-lo em seus projetos existentes, você pode fazer assim:
+Se ainda assim preferir instalar o Slidev manualmente ou se quiser integrá-lo em seus projetos existentes, você pode fazer assim:
 
 ```bash
 $ npm install @slidev/cli @slidev/theme-default
@@ -52,7 +52,7 @@ Você pode instalar o Slidev globalmente com o seguinte comando
 $ npm i -g @slidev/cli
 ```
 
-E aí use `slidev` em qualquer lugar sem ter que criar um projeto toda hora.
+E agora você pode usar comando `slidev` em qualquer lugar sem ter que criar um projeto toda hora.
 
 ```bash
 $ slidev
@@ -62,6 +62,6 @@ Este comando também vai tentar o `@slidev/cli` local se ele for encontrado nos 
 
 ## Instalação no Docker
 
-Se você precisar de uma maneira rápida de rodar uma apresentação com container, você pode usar a imagem do [docker](https://hub.docker.com/r/stig124/slidev) maintida por [stig124](https://github.com/Stig124), ou construir sua própria.
+Se você precisar de uma maneira rápida de rodar uma apresentação com container, você pode usar a imagem do [docker](https://hub.docker.com/r/stig124/slidev) mantida por [stig124](https://github.com/Stig124), ou construir sua própria.
 
 Consulte o [repositório do slidevjs/container](https://github.com/slidevjs/container) para mais detalhes.

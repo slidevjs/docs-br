@@ -62,7 +62,7 @@ Um item se tornará visível a cada vez que você clicar em "próximo".
 
 ### Contagem de Cliques Customizadas
 
-Por padrão, Slidev calcula quantos passos são necessários antes de passar para o próximo slide. Você pode sobrepor está configuração informando a propriedade `clicks` no frontmatter:
+Por padrão, o Slidev calcula quantos passos são necessários antes de passar para o próximo slide. Você pode sobrepor está configuração informando a propriedade `clicks` no frontmatter:
 
 ```yaml
 ---
@@ -113,7 +113,7 @@ Após o clique, isto se tornará
 <div class="slidev-vclick-target">Texto</div>
 ```
 
-Por padrão, uma transição sutíl de opacidade é aplicada à essas classes:
+Por padrão, uma transição suave de opacidade é aplicada à essas classes:
 
 ```css
 // o padrão
@@ -163,7 +163,7 @@ Aprenda mais sobre a [customização de estilo](/custom/directory-structure#esti
 
 ## Movimento
 
-Slidev tem o [@vueuse/motion](https://motion.vueuse.org/) integrado. Você pode usar a diretriz `v-motion` em qualquer elemento para aplicar movimento a ele. Por exemplo:
+O Slidev tem o [@vueuse/motion](https://motion.vueuse.org/) integrado. Você pode usar a diretriz `v-motion` em qualquer elemento para aplicar movimento a ele. Por exemplo:
 
 ```html
 <div

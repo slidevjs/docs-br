@@ -44,7 +44,7 @@ Você também pode compilar os slides em uma aplicação SPA auto-hospedável:
 $ slidev build
 ```
 
-A aplicação gerada estará disponível na pasta `dist/` e aí você pode hospedá-la no [GitHub Pages](https://pages.github.com/), [Netlify](https://netlify.app/), [Vercel](https://vercel.com/), ou em qualquer outra plataforma que preferir. Agora você pode compartilhar seus slides com o todo mundo com um único link.
+A aplicação gerada estará disponível na pasta `dist/` e a partir daí você pode hospedá-la no [GitHub Pages](https://pages.github.com/), [Netlify](https://netlify.app/), [Vercel](https://vercel.com/), ou em qualquer outra plataforma que preferir. Agora você pode compartilhar seus slides com o todo mundo com um único link.
 
 ### Diretório Base
 
@@ -58,7 +58,7 @@ Consulte a [documentação do Vite](https://vitejs.dev/guide/build.html#public-b
 
 ### Disponibilize um PDF para download
 
-Você pode disponibilizar um PDF para download aos visitante da sua aplicação SPA com a seguinte configuração:
+Você pode disponibilizar um PDF para download aos visitantes da sua aplicação SPA com a seguinte configuração:
 
 ```md
 ---
@@ -66,7 +66,7 @@ download: true
 ---
 ```
 
-O Slidev vai gerar um arquivo PDF junto com a compilação e um botão de download aparecerá na aplicação SPA.
+O Slidev vai gerar um arquivo PDF na compilação e um botão de download aparecerá na aplicação SPA.
 
 Você também pode prover uma URL customizada para o PDF. Nesse caso, o processo de renderização do arquivo será pulado.
 

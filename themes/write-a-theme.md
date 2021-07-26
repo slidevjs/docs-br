@@ -16,7 +16,7 @@ Um tema pode contribuir nos seguintes pontos:
 - Prover configurações padrão (fontes, esquema de cor, destacadores, etc.)
 - Prover layouts customizados ou sobrepor um existentes
 - Prover componentes customizados ou sobrepor existentes
-- Extender as configurações do Windi CSS
+- Estender as configurações do Windi CSS
 - Configurar ferramentas como Monaco e Prism
 
 ## Convenções
@@ -50,7 +50,7 @@ Opcionalmente, você também pode adicionar alguns scripts ao seu `packages.json
 }
 ```
 
-Para publicar seu tema, simplesmente execute `npm publish` e pronto. Não há nenhum processo de compilação necessário (o que significa que você pode publicar arquivos `.vue` e `.ts` diretamente, Slidev é esperto o bastante para entendê-los).
+Para publicar seu tema, simplesmente execute `npm publish` e pronto. Não há nenhum processo de compilação necessário (o que significa que você pode publicar arquivos `.vue` e `.ts` diretamente, o Slidev é esperto o bastante para entendê-los).
 
 Os pontos de contribuição do tema seguem as mesmas convenções das customizações locais, consulte [a documentação das convenções de nome](/custom/).
 
@@ -84,7 +84,7 @@ Aprenda mais sobre [fontes](/custom/fonts) e [configurações do frontmatter](/c
 
 ### Esquema de Cores
 
-Por padrão, o Slidev assume que os temas suportam tanto o modo claro quanto o escuro. se você quiser que seu tema seja apresentado em apenas um esquema de cores, você vai precisar especificar isto explicitamente no `package.json`:
+Por padrão, o Slidev assume que os temas suportam tanto o modo claro quanto o escuro. Se você quiser que seu tema seja apresentado em apenas um esquema de cores, você vai precisar especificar isto explicitamente no `package.json`:
 
 ```json
 // package.json
