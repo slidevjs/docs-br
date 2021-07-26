@@ -82,7 +82,7 @@ In case it's already been translated but you're wondering how to maintain it, sk
 ## Publishing your translations
 
 - [x] When you finish the translation (at least 90%), `@antfu` in the Discord and we will invite you to the org and make the translation official.
-- [ ] Once the transferring is done, we will set up the subdomain, auto-deployment, and a daily sync-up bot to keep the translation up-to-date with the latest English docs.
+- [x] Once the transferring is done, we will set up the subdomain, auto-deployment, and a daily sync-up bot to keep the translation up-to-date with the latest English docs.
 - [ ] The site is live, and we will send a shout-out tweet on [our Twitter account](https://twitter.com/Slidevjs).
 
 ## Maintaining the translations up-to-date
