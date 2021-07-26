@@ -1,6 +1,6 @@
 # Customizações
 
-Slidev é totalmente customizável, desde estilização até configurações de ferramentas. Ele te permite configurar as ferramentas por trás ([Vite](/custom/config-vite), [Windi CSS](/custom/config-windicss), [Monaco](/custom/config-monaco), etc.)
+O Slidev é totalmente customizável, desde estilização até configurações de ferramentas. Ele te permite configurar as ferramentas por trás ([Vite](/custom/config-vite), [Windi CSS](/custom/config-windicss), [Monaco](/custom/config-monaco), etc.)
 
 ## Configurações do Frontmatter
 

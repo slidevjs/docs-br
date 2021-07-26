@@ -2,9 +2,9 @@
 
 ## Grids
 
-Já que o Slidev é baseado na Web, você pode aplicar qualquer layout de grid como quiser. [CSS Grids](https://css-tricks.com/snippets/css/complete-guide-grid/), [flexboxes](https://css-tricks.com/snippets/css/a-guide-to-flexbox/), ou até [Masonry](https://css-tricks.com/native-css-masonry-layout-in-css-grid/), você tem total controle.
+Já que o Slidev é baseado na Web, você pode aplicar qualquer layout de grid como quiser. [CSS Grids](https://css-tricks.com/snippets/css/complete-guide-grid/), [flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/), ou até [Masonry](https://css-tricks.com/native-css-masonry-layout-in-css-grid/), você tem total controle.
 
-Com nós temos o [Windi CSS](https://windicss.org/) integrado, aqui vai um jeito simples de você fazer isso:
+Como nós temos o [Windi CSS](https://windicss.org/) integrado, aqui vai um jeito simples de você fazer isso:
 
 ```html
 <div class="grid grid-cols-2 gap-4">
@@ -57,7 +57,7 @@ Este é um rodapé alinhado no canto inferior esquerdo
 </div>
 ```
 
-Para alterar o tamanho do canvas em si, você pode passar a opção `canvasWidth` no seu primeiro frontmatter:
+Para alterar o tamanho do canvas, você pode passar a opção `canvasWidth` no seu primeiro frontmatter:
 
 ```yaml
 ---

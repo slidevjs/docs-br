@@ -76,7 +76,7 @@ Nós suportamos o [Prism](http://prismjs.com) e o [Shiki](https://github.com/shi
 
 ### Realce de Linha
 
-Para realçar linhas específicas, simplesmente adicione o número das linhas dentro de chaves `{}`. A contagem do número das linhas começa a partir do 1.
+Para realçar linhas específicas, simplesmente adicione o número das linhas em chaves `{}`. A contagem do número das linhas começa a partir do 1.
 
 ~~~ts
 //```ts {2,3}
@@ -89,7 +89,7 @@ function add(
 //```
 ~~~
 
-Para definir os realçes em vários passos, você pode usar `|` para separá-los. Por exemplo:
+Para definir os realces em vários passos, você pode usar `|` para separá-los. Por exemplo:
 
 ~~~ts
 //```ts {2-3|5|all}
@@ -136,7 +136,7 @@ h1 {
 
 A tag `<style>` no Markdown sempre segue um [escopo](https://vue-loader.vuejs.org/guide/scoped-css.html). Para redefinir estilos globalmente, dá uma olhada na [seção de customização](/custom/directory-structure#estilo).
 
-Por causa do [Windi CSS](https://windicss.org), você pode usar aninhamento de CSS diretamente, além de [diretrizes](https://windicss.org/features/directives.html) (e.g. `@apply`).
+Graças ao [Windi CSS](https://windicss.org), você pode usar aninhamento de CSS diretamente, além de [diretrizes](https://windicss.org/features/directives.html) (e.g. `@apply`).
 
 ```md
 # Slidev
@@ -239,7 +239,7 @@ Você pode estilizar os ícones como qualquer outro elemento HTML. Por exemplo:
 
 Alguns layouts podem fornecer vários pontos de contribuição usando [slots nomeados do Vue](https://v3.vuejs.org/guide/component-slots.html).
 
-Por exemplo, no [layout `two-cols`](https://github.com/slidevjs/slidev/blob/main/packages/client/layouts/two-cols.vue), você pode ter duas colunas lado a lado: a da esquerda (slot `default`) e a da direira (slot `right`).
+Por exemplo, no [layout `two-cols`](https://github.com/slidevjs/slidev/blob/main/packages/client/layouts/two-cols.vue), você pode ter duas colunas lado a lado: a da esquerda (slot `default`) e a da direita (slot `right`).
 
 ```md
 ---
@@ -378,7 +378,7 @@ sequenceDiagram
 //```
 ~~~
 
-Você pode até passar um objeto com opções para especificar o tamanho e o tema. A sintaxe do objeto é de um objeto literal do JavaScript, voê vai precisar adicionar aspas (`'`) para textos e usar vírgula (`,`) entre cada chave (`theme`, `scale`, etc).
+Você pode até passar um objeto com opções para especificar o tamanho e o tema. A sintaxe do objeto é de um objeto literal do JavaScript, você vai precisar adicionar aspas (`'`) para textos e usar vírgula (`,`) entre cada chave (`theme`, `scale`, etc).
 
 ~~~md
 //```mermaid {theme: 'neutral', scale: 0.8}
@@ -391,7 +391,7 @@ C -->|Dois| E[Resultado 2]
 
 Aprenda mais: [Demonstração](https://sli.dev/demo/starter/9) | [Mermaid](https://mermaid-js.github.io/mermaid)
 
-## Multiplas Entradas
+## Múltiplas Entradas
 
 > Disponível desde a v0.15
 

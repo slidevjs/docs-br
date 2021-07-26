@@ -50,7 +50,7 @@ seu-slidev/
 
 Esta funcionalidade é fornecida pelo [`vite-plugin-components`](https://github.com/antfu/vite-plugin-components), saiba mais por lá.
 
-Slidev também disponibiliza alguns [componentes embutidos](/builtin/components) pra você usar.
+O Slidev também disponibiliza alguns [componentes embutidos](/builtin/components) pra você usar.
 
 ## Layouts
 
@@ -72,7 +72,7 @@ layout: meu-tema-supimpa
 ---
 ```
 
-Se o layout que você fez tiver o mesmo nome de um layout interno ou de algum tema, seu layout customizado terá prioridade sobre os demais. A ordem de prioridade é `local > tema > interno`.
+Se o layout que você fez tiver o mesmo nome de um interno ou de algum tema, o seu layout customizado terá prioridade sobre os demais. A ordem de prioridade é `local > tema > interno`.
 
 No componente de layout, use `<slot/>` para o conteúdo do slide. Por exemplo:
 
@@ -89,13 +89,13 @@ No componente de layout, use `<slot/>` para o conteúdo do slide. Por exemplo:
 
 Convenções: `./public/*`
 
-Recursos neste diretórios serão servidos na rota raiz `/` durante o desenvolvimento, e copiados para a raiz do diretório dist do jeito que estiverem. Leia mais sobre [o diretório `public` do Vite's](https://vitejs.dev/guide/assets.html#the-public-directory).
+Recursos neste diretórios serão servidos na rota raiz `/` durante o desenvolvimento, e copiados para a raiz do diretório `dist` do jeito que estiverem. Leia mais sobre [o diretório `public` do Vite's](https://vitejs.dev/guide/assets.html#the-public-directory).
 
 ## Estilo
 
 Convenções: `./style.css` | `./styles/index.{css,js,ts}`
 
-Arquivos que seguem esta convenção serão injetados na raiz do App. Se você precisar importar múltiplas entradas de css, você pode criar a seguinte estrutura e administrar a ordem de importação por conta própria.
+Arquivos que seguem esta convenção serão injetados na raiz da aplicação. Se você precisar importar múltiplas entradas de CSS, você pode criar a seguinte estrutura e administrar a ordem de importação por conta própria.
 
 ```bash
 seu-slidev/

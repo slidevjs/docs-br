@@ -2,7 +2,7 @@
 
 ## Introdução
 
-Slidev <sup>(slide + dev, `/slʌɪdɪv/`)</sup> é uma ferramenta para criar e apresentar slides baseada na web. O Slidev foi projetado para desenvolvedores focarem em escrever conteúdo em Markdown e ainda ter o poder do HTML e dos componentes do Vue para fornecer layouts e designs perfeitos com demonstrações interativas de suas apresentações.
+Slidev <sup>(slide + dev, `/slʌɪdɪv/`)</sup> é uma ferramenta baseada em tecnologias web para criar e apresentar slides. O Slidev foi projetado para desenvolvedores focarem em escrever conteúdo em Markdown e ainda ter o poder do HTML e dos componentes do Vue para fornecer layouts e designs perfeitos com demonstrações interativas de suas apresentações.
 
 É usado um arquivo Markdown cheio de recursos para gerar slides bonitos com uma experiência de *refresh* instantâneo, além de várias integrações embutidas como desenvolvimento de código em tempo real, exportação pra PDF, gravação da apresentação, e assim por diante. Como tem como base tecnologias da web, você pode fazer tudo com o Slidev - as possibilidades são infinitas.
 
@@ -18,7 +18,7 @@ Você pode saber mais sobre a lógica por trás do projeto na seção [Por que S
 - 🎙 [**Modo Apresentador**](/guide/presenter-mode.html) - use outra janela, ou até mesmo seu celular para controlar seus slides
 - 🧮 [**LaTeX**](/guide/syntax.html#latex) - suporte integrado à equações matemáticas em LaTeX
 - 📰 [**Diagramas**](/guide/syntax.html#diagramas) - cria diagramas com descrições em texto
-- 🌟 [**Ícones**](/guide/syntax.html#icones) - acesse ícones de qualquer conjunto de ícones diretamente
+- 🌟 [**Ícones**](/guide/syntax.html#icones) - acesse ícones de qualquer conjunto diretamente
 - 💻 [**Editores**](/guide/editors.html) - editor integrado, ou uma [extensão para o VS Code](https://github.com/slidevjs/slidev-vscode)
 - 🎥 [**Gravação**](/guide/recording.html) - gravação integrada e visão da câmera
 - 📤 [**Portátil**](/guide/exporting.html) - exporte para PDF, PNGs, ou até mesmo uma aplicação SPA hospedável
@@ -31,7 +31,7 @@ O Slidev é possível pela combinação dessas ferramentes e tecnologias.
 
 - [Vite](https://vitejs.dev) - Uma ferramenta para front-end extremamente rápida
 - [Vue 3](https://v3.vuejs.org/) com [Markdown](https://daringfireball.net/projects/markdown/syntax) - Foco no conteúdo a ainda ter o poder do HTML e dos componentes do Vue quando precisar
-- [Windi CSS](https://github.com/windicss/windicss) -  Framework CSS com utilidades sob demanda, estilize seus slides com facilidade
+- [Windi CSS](https://github.com/windicss/windicss) - Framework CSS com utilidades sob demanda, estilize seus slides com facilidade
 - [Prism](https://github.com/PrismJS/prism), [Shiki](https://github.com/shikijs/shiki), [Monaco Editor](https://github.com/Microsoft/monaco-editor) - Suporte a blocos de código como codificação em tempo real
 - [RecordRTC](https://recordrtc.org) - Gravação e visão da câmera integrados
 - Família [VueUse](https://vueuse.org) -  [`@vueuse/core`](https://github.com/vueuse/vueuse), [`@vueuse/head`](https://github.com/vueuse/head), [`@vueuse/motion`](https://github.com/vueuse/motion), etc.
@@ -79,7 +79,7 @@ Rode `slidev --help` para mais opções disponíveis.
 
 ### Sintaxe do Markdown
 
-O Slidev lê o seu arquivo `slides.md` na raíz do seu projeto e o converte em slides. A qualquer alteração que você faça nele, o conteúdo dos slides serão atualizados imediatamente. Por exemplo:
+O Slidev lê o seu arquivo `slides.md` na raiz do seu projeto e o converte em slides. A qualquer alteração que você faça nele, o conteúdo dos slides serão atualizados imediatamente. Por exemplo:
 
 ~~~md
 # Slidev

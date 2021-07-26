@@ -1,6 +1,6 @@
 # Contexto Global do Vue
 
-Slidev injeta um [contexto global do Vue](https://v3.vuejs.org/api/application-config.html#globalproperties) `$slidev` para condições avançadas ou controles de navegação.
+O Slidev injeta um [contexto global do Vue](https://v3.vuejs.org/api/application-config.html#globalproperties) `$slidev` para condições avançadas ou controles de navegação.
 
 ## Uso
 

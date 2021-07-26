@@ -2,7 +2,7 @@
 
 <Environment type="node" />
 
-Markdown suporta naturalmente tags HTML embutidas. Portanto, você pode estilizar seu conteudo como preferir. Para oferecer certa comodidade, nós temos o [Windi CSS](https://github.com/windicss/windicss) embutido, para que você possa estilizar o conteúdo diretamente usando classes.
+O Markdown suporta naturalmente tags HTML embutidas. Portanto, você pode estilizar seu conteúdo como preferir. Para oferecer certa comodidade, nós temos o [Windi CSS](https://github.com/windicss/windicss) embutido, para que você possa estilizar o conteúdo diretamente usando classes.
 
 Por exemplo:
 
