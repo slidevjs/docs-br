@@ -1,12 +1,12 @@
 # Suporte em Editores
 
-Já que o Slidev usa Markdown como fonte, você pode usar QUALQUER editor que adora escrevê-lo.
+Já que o Slidev usa Markdown como fonte, você pode usar QUALQUER editor que ama escrever.
 
 Se você quiser certo gerenciamento de alto-nível em seus slides, nós provemos as seguintes integrações em editores pra você!
 
 ## Editor Integrado
 
-Slidev vem com um editor [CodeMirror](https://codemirror.net/) integrado que vai instantâneamente recarregar e salvar as alterações no seu arquivo.
+O Slidev vem com um editor [CodeMirror](https://codemirror.net/) integrado que vai instantaneamente recarregar e salvar as alterações no seu arquivo.
 
 Clique no botão <carbon-edit class="inline-icon-btn"/> para abri-lo.
 

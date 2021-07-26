@@ -2,9 +2,9 @@
 
 > Disponível a partir da v0.20
 
-Enquanto você pode usar HTML e CSS para customizar as fontes e estilos nos seus slides como preferir, Slidev também provê um jeito conveniente de usá-los sem esforços.
+Enquanto você pode usar HTML e CSS para customizar as fontes e estilos nos seus slides como preferir, o Slidev também provê um jeito conveniente de usá-los sem esforços.
 
-No seu fontmatter, configure assim:
+No seu frontmatter, configure assim:
 
 ```yaml
 ---
@@ -24,7 +24,7 @@ As fontes serão **importadas automaticamente do [Google Fonts](https://fonts.go
 
 ## Fontes Locais
 
-Por padrão, Slidev assume que todas as fontes especificadas por meio da configuração `fonts` vêm do Google Fonts. Se você quiser usar fontes locais, especifique o `fonts.local` para interromper a importação automática.
+Por padrão, o Slidev assume que todas as fontes especificadas por meio da configuração `fonts` vêm do Google Fonts. Se você quiser usar fontes locais, especifique o `fonts.local` para interromper a importação automática.
 
 ```yaml
 ---
@@ -38,7 +38,7 @@ fonts:
 
 ## Espessura & Itálico
 
-Por padrão, Slidev importa três espessuras `200`,`400`,`600` para cada fonte. Você pode configurá-las assim:
+Por padrão, o Slidev importa três espessuras `200`,`400`,`600` para cada fonte. Você pode configurá-las assim:
 
 ```yaml
 ---

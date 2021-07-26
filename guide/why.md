@@ -1,10 +1,10 @@
 # Por que o Slidev
 
-Existem inúmeras ferramentas para criar slides cheias de recurso, de uso geral, como o [Microsoft PowerPoint](https://www.microsoft.com/en-us/microsoft-365/powerpoint) e o [Apple Keynote](https://www.apple.com/keynote/). Eles funcionam muito bem para fazer slides legais com animações, gráficos, e muitas outras coisas, além de serem bem intuitivos e fáceis de aprender. Então por que gastar tempo fazendo o Slidev?
+Existem inúmeras ferramentas para criar slides cheias de recurso, de uso geral, como [Microsoft PowerPoint](https://www.microsoft.com/en-us/microsoft-365/powerpoint) e [Apple Keynote](https://www.apple.com/keynote/). Elas funcionam muito bem para fazer slides legais com animações, gráficos, e muitas outras coisas, além de serem bem intuitivas e fáceis de aprender. Então por que gastar tempo fazendo o Slidev?
 
 O Slidev visa fornecer a flexibilidade e a interatividade para desenvolvedores fazerem suas apresentações ainda mais interessantes, expressivas, e atraentes usando ferramentas e tecnologias das quais já estão familiarizados.
 
-Ao trabalhar com editores *WYSIWYG*, é bem fácil se destrair com as opções de estilização. O Slidev corrige isso separando o conteúdo dos recursos visuais. Isto te permite focar em uma coisa de cada vez, além de poder reutilizar temas da comunidade. O Slidev não pretende substituir completamente outras ferramentas de slides. Em vez disso, se concentra em atender à comunidade de desenvolvedores.
+Ao trabalhar com editores *WYSIWYG*, é bem fácil se distrair com as opções de estilização. O Slidev corrige isso separando o conteúdo dos recursos visuais. Isto te permite focar em uma coisa de cada vez, além de reutilizar temas da comunidade. O Slidev não pretende substituir completamente outras ferramentas de slides. Em vez disso, se concentra em atender à comunidade de desenvolvedores.
 
 > Nota: _**WYSIWYG**_ é um acrônimo para "What You See Is What You Get", que seria algo como "O que você vê é o que você obtém".
 
@@ -16,7 +16,7 @@ Aqui estão alguns dos recursos mais legais do Slidev:
 
 ## Baseado em markdown
 
-O Slidev usa um formato extendido do Markdown para armazenas seus slides em um único arquivo de texto. Isto te permite focar em produzir o conteúdo. E já que o conteúdo é separado dos estilos, isto também te permite trocar de temas sem esforço.
+O Slidev usa um formato estendido do Markdown para armazenar seus slides em um único arquivo de texto. Isto te permite focar em produzir o conteúdo. E já que o conteúdo é separado dos estilos, isto também te permite trocar de temas sem esforço.
 
 Aprenda mais sobre [a sintaxe Markdown do Slidev](/guide/syntax).
 
@@ -34,7 +34,7 @@ Aprenda mais sobre [destacadores](/custom/highlighters) e [configurações do Mo
 
 ## Rápido
 
-O Slidev é construído com [Vite](https://vitejs.dev/), [Vue 3](https://v3.vuejs.org/) e [Windi CSS](https://windicss.org/), que te proporciona uma experiência espetacular de desenvolvimento. Toda mudança que você fizer refletirá **instantâneamente** em seus slides.
+O Slidev é construído com [Vite](https://vitejs.dev/), [Vue 3](https://v3.vuejs.org/) e [Windi CSS](https://windicss.org/), o que te proporciona uma experiência espetacular de desenvolvimento. Toda mudança que você fizer refletirá **instantaneamente** em seus slides.
 
 Saiba mais sobre [nossas tecnologias](/guide/#tecnologias).
 
@@ -44,7 +44,7 @@ Você pode desenvolver componentes do Vue customizados e usá-los diretamente no
 
 ## Suporte a Gravação
 
-O Slidev fornece gravação e visão da câmera integrados. Você pode compartilhar a sua apresentação com a visão da sua câmera dentro, ou gravar e salvar a sua tela e câmera separadamente. Tudo de uma vez só, sem a necessidade de nenhuma ferramente adicional.
+O Slidev fornece gravação e visão da câmera integrados. Você pode compartilhar a sua apresentação com a visão da sua câmera embutida, ou gravar e salvar a sua tela e câmera separadamente. Tudo de uma vez só, sem a necessidade de nenhuma ferramente adicional.
 
 Aprenda mais sobre [gravação aqui](/guide/recording).
 

@@ -44,7 +44,7 @@ plusOne.value++ // error
 
 ## Exportando
 
-Por padrão, Monaco só vai funcionar no modo `dev`. Se quiser tê-lo no SPA exportado, configure isso no seu frontmatter:
+Por padrão, Monaco só vai funcionar no modo `dev`. Se quiser tê-lo na aplicação SPA exportada, configure isso no seu frontmatter:
 
 ```yaml
 ---
@@ -65,11 +65,11 @@ const counter = ref(0)
 //```
 ~~~
 
-Neste exemplo acima, verifique que tanto o `vue` quanto o `@vueuse/core` estão instalados localmente assim como as dependências / dependências dev, Slidev vai lidar com o resto para obter os tipos para o editor automaticamente!
+Neste exemplo acima, verifique que tanto o `vue` quanto o `@vueuse/core` estão instalados localmente assim como as dependências / dependências dev, o Slidev vai lidar com o resto para obter os tipos para o editor automaticamente!
 
 ## Configurar Temas
 
-O tema é controlado pelo Slidev baseado no modo claro/escuro. Se você quiser customizar isto, é só passar o id do tema na função de configuração:
+O tema é controlado pelo Slidev baseado no modo claro/escuro. Se você quiser customizar-lo, é só passar o id do tema na função de configuração:
 
 ```ts
 // ./setup/monaco.ts
