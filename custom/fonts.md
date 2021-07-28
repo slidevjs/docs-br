@@ -4,11 +4,7 @@
 
 Enquanto você pode usar HTML e CSS para customizar as fontes e estilos nos seus slides como preferir, o Slidev também provê um jeito conveniente de usá-los sem esforços.
 
-<<<<<<< HEAD
 No seu frontmatter, configure assim:
-=======
-In your frontmatter, configure as following
->>>>>>> d9b5a2ed4eea5c454b14f823f740a050ef45f079
 
 ```yaml
 ---

@@ -19,15 +19,9 @@ titleTemplate: '%s - Slidev'
 download: true
 # destacador de sintaxe, pode ser 'prism' ou 'shiki'
 highlighter: 'prism'
-<<<<<<< HEAD
 # mostra o número das linhas nos blocos de código 
 lineNumbers: false
 # habilita o editor monaco, por padrão é só no dev
-=======
-# show line numbers in code blocks
-lineNumbers: false
-# enable monaco editor, default to dev only
->>>>>>> d9b5a2ed4eea5c454b14f823f740a050ef45f079
 monaco: 'dev'
 
 # força um esquema de cor aos slides, pode ser 'auto', 'light' ou 'dark'
@@ -58,11 +52,7 @@ info: |
 ---
 ```
 
-<<<<<<< HEAD
 Vejas as [definições de tipos](https://github.com/slidevjs/slidev/blob/main/packages/types/src/config.ts) para mais opções.
-=======
-Check out the [type definitions](https://github.com/slidevjs/slidev/blob/main/packages/types/src/config.ts) for more options.
->>>>>>> d9b5a2ed4eea5c454b14f823f740a050ef45f079
 
 ## Estrutura de Diretório
 

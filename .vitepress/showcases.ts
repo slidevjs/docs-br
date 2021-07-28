@@ -72,11 +72,7 @@ export const showcases: ShowCaseInfo[] = [
     cover: 'https://masukin.link/talks-cover-create-icon-package-with-vue-and-rollup.png',
     datetime: '2021-06-19',
   },
-<<<<<<< HEAD
   {
-=======
-   {
->>>>>>> d9b5a2ed4eea5c454b14f823f740a050ef45f079
     title: 'BeAPT',
     author: {
       name: 'Daniel Sousa @TutoDS',
