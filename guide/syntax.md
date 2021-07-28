@@ -368,7 +368,11 @@ Aprenda mais: [Demonstração](https://sli.dev/demo/starter/8) | [KaTeX](https:/
 
 Você também pode criar diagramas / gráficos a partir de descrições em texto no seu Markdown, renderizado pelo [Mermaid](https://mermaid-js.github.io/mermaid).
 
+<<<<<<< HEAD
 Blocos de código marcados como `mermaid` serão convertidos para diagramas, por exemplo:
+=======
+Code blocks marked as `mermaid` will be converted to diagrams, for example:
+>>>>>>> d9b5a2ed4eea5c454b14f823f740a050ef45f079
 
 ~~~md
 //```mermaid

@@ -95,6 +95,13 @@ const Translations = [
     link: 'https://de.sli.dev{{pathname}}',
   },
   {
+<<<<<<< HEAD
+=======
+    text: 'Português (BR)',
+    link: 'https://br.sli.dev{{pathname}}',
+  },
+  {
+>>>>>>> d9b5a2ed4eea5c454b14f823f740a050ef45f079
     text: 'Ελληνικά',
     link: 'https://el.sli.dev{{pathname}}',
   },
