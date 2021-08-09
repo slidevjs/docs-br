@@ -2,7 +2,126 @@
 
 ## Layouts Internos
 
-> A documentação dessa seção continua em progresso. Até lá, você pode olhar o [código-fonte](https://github.com/slidevjs/slidev/blob/main/packages/client/layouts) diretamente.
+> Já que temas podem sobrepor o comportamento dos layouts, o melhor jeito de saber exatamente o uso, parâmetros e exemplos é consultando suas respectivas documentações.
+
+
+### `center`
+
+Exibe o conteúdo no meio da tela.
+
+### `cover`
+
+Usado para exibir a página de capa para a apresentação, pode conter o título, contextualização, etc.
+
+### `default`
+
+O layout mais básico, para exibir qualquer conteúdo.
+
+### `end`
+
+A página final da apresentação.
+
+### `fact`
+
+Para mostrar algum fato ou dado com bastante destaque na tela.
+
+### `full`
+
+Usa todo o espaço da tela para exibir o conteúdo.
+
+### `image-left`
+
+Mostra uma imagem no lado esquerdo da tela, o conteúdo será posicionado à direita.
+
+#### Uso
+
+```yaml
+---
+layout: image-left
+
+# a fonte da imagem
+image: ./caminho/para/a/imagem
+
+# uma nome de classe customizado para o conteúdo
+class: my-cool-content-on-the-right
+---
+```
+
+### `image-right`
+
+Mostra uma imagem no lado direito da tela, o conteúdo será posicionado à esquerda.
+
+#### Uso
+
+```yaml
+---
+layout: image-right
+
+# a fonte da imagem
+image: ./caminho/para/a/imagem
+
+# uma nome de classe customizado para o conteúdo
+class: my-cool-content-on-the-left
+---
+```
+
+### `image`
+
+Mostra uma imagem como o conteúdo principal da página.
+
+#### Uso
+
+```yaml
+---
+layout: image
+
+# a fonte da imagem
+image: ./caminho/para/a/imagem
+---
+```
+
+### `intro`
+
+Para introduzir a apresentação, geralmente com o título, uma descrição curta, o autor, etc.
+
+### `none`
+
+Um layout sem nenhum estilo existente.
+
+### `quote`
+
+Para exibir uma citação com destaque.
+
+### `section`
+
+Usado para marcar o início de uma nova seção da apresentação.
+
+### `statement`
+
+Fazer uma afirmação/declaração como o principal conteúdo da página.
+
+### `two-cols`
+
+Separa o conteúdo da página em duas colunas.
+
+#### Uso
+
+
+```md
+---
+layout: two-cols
+---
+
+# Esquerda
+
+Isto está à esquerda
+
+::right::
+
+# Direita
+
+Isto está à direita
+```
 
 ## Layouts Customizados
 

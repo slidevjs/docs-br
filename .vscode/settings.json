@@ -1,4 +1,7 @@
 {
+    "languageToolLinter.languageTool.language": "pt-BR",
+    "languageToolLinter.languageTool.motherTongue": "pt-BR",
+    "languageToolLinter.languageTool.disabledRules": "BARBARISMS,PT_BARBARISMS_REPLACE,SMART_QUOTES,E_NO_COMECO,PT_BR_SIMPLE_REPLACE,FORMAL_PRA_PARA,LOOSE_ACCENTS,DASH_RULE,DECIMAL_COMMA,EQUAL_OR_X,SEMICOLON_COLON_SPACING",
     "languageToolLinter.languageTool.ignoredWordsInWorkspace": [
         "application",
         "array",
@@ -55,5 +58,4 @@
         "yaml",
         "yarn"
     ],
-    "languageToolLinter.languageTool.disabledRules": "BARBARISMS,PT_BARBARISMS_REPLACE,SMART_QUOTES,E_NO_COMECO,PT_BR_SIMPLE_REPLACE,FORMAL_PRA_PARA,LOOSE_ACCENTS,DASH_RULE,DECIMAL_COMMA,EQUAL_OR_X,SEMICOLON_COLON_SPACING",
 }
