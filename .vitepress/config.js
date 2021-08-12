@@ -161,15 +161,11 @@ const Resources = [
     link: '/showcases',
   },
   {
-<<<<<<< HEAD
-    text: 'Capas Selecionadas',
-=======
-    text: 'Learning Resources',
+    text: 'Recursos de Aprendizagem',
     link: '/resources/learning',
   },
   {
-    text: 'Curated Covers',
->>>>>>> 9ea35932b94caae076abe8c4e0df6914298d4ebe
+    text: 'Capas Selecionadas',
     link: '/resources/covers',
   },
 ]
