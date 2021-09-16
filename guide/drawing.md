@@ -1,20 +1,20 @@
-# Drawing & Annotations
+# Desenhos & Anotações
 
-> Available since v0.23
+> Disponível a partir da v0.23
 
-We have [drauu](https://github.com/antfu/drauu) built-in for drawing and annotation that could enhance your presentation further.
+Nós temos o [drauu](https://github.com/antfu/drauu) embutido para desenhos e anotações que podem melhorar ainda mais suas apresentações.
 
-To start, click the <carbon-pen class="inline-icon-btn"/> icon in the toolbar and start drawing. It's also available in the [Presenter Mode](/guide/presenter-mode). Drawings and annotations you created will be **synced up** automatically across all instances in real-time.
+Pra começar, clique no ícone <carbon-pen class="inline-icon-btn"/> na barra de navegação e comece a desenhar. Isto também está disponível no [Modo Apresentador](/guide/presenter-mode). Desenhos e anotações que você ciar serão **sincronizadas** automaticamente por todas as instâncias em tempo real.
 
 <Tweet id="1424027510342250499" />
 
-## Use with Stylus Pen
+## Use com uma caneta Stylus
 
-When using a stylus pen on a tablet (for example, iPad with Apple Pencil), Slidev could smartly detect the input type. You can directly draw on your slides with the pen without turning on the drawing mode, while having your fingers or mouse control the navigation.
+Quando usado com uma caneta stylus em um tablet (por exemplo, iPad com a Apple Pencil), o Slidev pode detectar com inteligência o tipo de entrada. Você pode desenhar diretamente nos seus slides com uma caneta sem precisar alternar para o modo de desenho, e tendo o controle de navegação com seus dedos ou mouse.
 
-## Persist Drawings
+## Manter Desenhos
 
-The following frontmatter configuration allows you to persist your drawings as SVGs under `.slidev/drawings` directory and have them inside your exported pdf or hosted site.
+A seguinte configuração do frontmatter te permite manter os desenhos como SVGs dentro do diretório `.slidev/drawings` e tê-los no seu PDF exportado site hospedado.
 
 ```md
 ---
@@ -23,9 +23,9 @@ drawings:
 ---
 ```
 
-## Disable Drawings
+## Desabilitar Desenhos
 
-Entirely:
+Inteiramente:
 
 ```md
 ---
@@ -34,7 +34,7 @@ drawings:
 ---
 ```
 
-Only in Development:
+Apenas no Desenvolvimento:
 
 ```md
 ---
