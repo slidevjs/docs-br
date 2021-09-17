@@ -38,6 +38,7 @@ $ slidev export --format png
 
 ## Single-Page Application (SPA)
 
+<<<<<<< HEAD
 Você também pode compilar os slides em uma aplicação SPA auto-hospedável:
 
 ```bash
@@ -82,3 +83,6 @@ Aqui estão alguns exemplos de aplicações SPA exportadas:
 
 - [Starter Template](https://sli.dev/demo/starter)
 - [Composable Vue](https://talks.antfu.me/2021/composable-vue) por [Anthony Fu](https://github.com/antfu)
+=======
+See [Static Hosting](/guide/hosting).
+>>>>>>> 7dc63d28be77f9c3b208ece23969befdc0d99204
