@@ -38,47 +38,4 @@ $ slidev export --format png
 
 ## Single-Page Application (SPA)
 
-Você também pode compilar os slides em uma aplicação SPA auto-hospedável:
-
-```bash
-$ slidev build
-```
-
-A aplicação gerada estará disponível na pasta `dist/` e a partir daí você pode hospedá-la no [GitHub Pages](https://pages.github.com/), [Netlify](https://netlify.app/), [Vercel](https://vercel.com/), ou em qualquer outra plataforma que preferir. Agora você pode compartilhar seus slides com o todo mundo com um único link.
-
-### Diretório Base
-
-Para implantar seus slides em sub-rotas, você precisará passar a opção `--base`. Por exemplo:
-
-```bash
-$ slidev build --base /palestras/minha-palestra-legal/
-```
-
-Consulte a [documentação do Vite](https://vitejs.dev/guide/build.html#public-base-path) para mais detalhes.
-
-### Disponibilize um PDF para download
-
-Você pode disponibilizar um PDF para download aos visitantes da sua aplicação SPA com a seguinte configuração:
-
-```md
----
-download: true
----
-```
-
-O Slidev vai gerar um arquivo PDF na compilação e um botão de download aparecerá na aplicação SPA.
-
-Você também pode prover uma URL customizada para o PDF. Nesse caso, o processo de renderização do arquivo será pulado.
-
-```md
----
-download: 'https://myside.com/my-talk.pdf'
----
-```
-
-### Exemplos
-
-Aqui estão alguns exemplos de aplicações SPA exportadas:
-
-- [Starter Template](https://sli.dev/demo/starter)
-- [Composable Vue](https://talks.antfu.me/2021/composable-vue) por [Anthony Fu](https://github.com/antfu)
+Veja [Hospedagem Estática](/guide/hosting).

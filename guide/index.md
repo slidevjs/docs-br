@@ -16,6 +16,7 @@ Você pode saber mais sobre a lógica por trás do projeto na seção [Por que S
 - 🌈 [**Estiloso**](/guide/syntax.html#estilos-embutidos) - utilidades do [Windi CSS](https://windicss.org/) sob demanda, fácil incorporação de CSS
 - 🤹 [**Interativo**](/custom/directory-structure.html#componentes) - suporta perfeitamente a incorporação de componentes do Vue
 - 🎙 [**Modo Apresentador**](/guide/presenter-mode.html) - use outra janela, ou até mesmo seu celular para controlar seus slides
+- 🎨 [**Desenhos**](/guide/drawing.html) - desenhe e anote em seus slides
 - 🧮 [**LaTeX**](/guide/syntax.html#latex) - suporte integrado à equações matemáticas em LaTeX
 - 📰 [**Diagramas**](/guide/syntax.html#diagramas) - cria diagramas com descrições em texto
 - 🌟 [**Ícones**](/guide/syntax.html#icones) - acesse ícones de qualquer conjunto diretamente
@@ -36,6 +37,7 @@ O Slidev é possível pela combinação dessas ferramentes e tecnologias.
 - [RecordRTC](https://recordrtc.org) - Gravação e visão da câmera integrados
 - Família [VueUse](https://vueuse.org) -  [`@vueuse/core`](https://github.com/vueuse/vueuse), [`@vueuse/head`](https://github.com/vueuse/head), [`@vueuse/motion`](https://github.com/vueuse/motion), etc.
 - [Iconify](https://iconify.design/) - Coleção de ícones.
+- [Drauu](https://github.com/antfu/drauu) - Suporte à desenhos e anotações
 - [KaTeX](https://katex.org/) - Renderização do LaTeX.
 - [Mermaid](https://mermaid-js.github.io/mermaid) - Diagramas baseados em texto.
 
