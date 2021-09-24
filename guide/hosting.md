@@ -75,7 +75,7 @@ Crie o arquivo `netlify.toml` na raiz do projeto com o seguinte conteúdo.
 
 Depois vá para o seu painel de controle do Netlify e crie um novo site com o repositório.
 
-## Vercel
+### Vercel
 
 - [Vercel](https://vercel.com/)
 

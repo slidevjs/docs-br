@@ -43,7 +43,21 @@ O Slidev é possível pela combinação dessas ferramentes e tecnologias.
 
 ### Criando Sua Primeira Apresentação
 
+<<<<<<< HEAD
 Com NPM:
+=======
+<br>
+
+#### Try it Online
+
+[sli.dev/new](https://sli.dev/new)
+
+[![](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://sli.dev/new)
+
+#### Create Locally
+
+With NPM:
+>>>>>>> d0e3a01b753625e63d3c1611ce90c8118ce93553
 
 ```bash
 $ npm init slidev
