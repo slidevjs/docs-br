@@ -43,6 +43,16 @@ O Slidev é possível pela combinação dessas ferramentes e tecnologias.
 
 ### Criando Sua Primeira Apresentação
 
+<br>
+
+#### Experimente online
+
+[sli.dev/new](https://sli.dev/new)
+
+[![](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://sli.dev/new)
+
+#### Crie Localmente
+
 Com NPM:
 
 ```bash

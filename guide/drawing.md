@@ -42,3 +42,25 @@ drawings:
   enabled: dev
 ---
 ```
+
+Apenas no Modo de Apresentador:
+
+```md
+---
+drawings: 
+  presenterOnly: true
+---
+```
+
+## Sincronização dos Desenhos
+
+Por  padrão, o Slidev sincroniza os seus desenhos por todas as instâncias. Se você estiver compartilhando seus slides com outras pessoas, você pode querer desabilitar a sincronização assim:
+
+```md
+---
+drawings: 
+  syncAll: false
+---
+```
+
+Com esta configuração, só os desenhos da instância do apresentador serão sincronizados com as outras.
