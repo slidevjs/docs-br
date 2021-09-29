@@ -43,7 +43,7 @@ drawings:
 ---
 ```
 
-Only in Presenter Mode:
+Apenas no Modo de Apresentador:
 
 ```md
 ---
@@ -52,9 +52,9 @@ drawings:
 ---
 ```
 
-## Drawing Syncing
+## Sincronização dos Desenhos
 
-By default, Slidev syncs up your drawings across all instances. If you are sharing your slides with others, you might want to disable the syncing by:
+Por  padrão, o Slidev sincroniza os seus desenhos por todas as instâncias. Se você estiver compartilhando seus slides com outras pessoas, você pode querer desabilitar a sincronização assim:
 
 ```md
 ---
@@ -63,6 +63,4 @@ drawings:
 ---
 ```
 
-With this config, only the drawing from the presenter instance will be able to sync with others.
-
-
+Com esta configuração, só os desenhos da instância do apresentador serão sincronizados com as outras.
