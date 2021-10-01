@@ -80,6 +80,59 @@ image: ./caminho/para/a/imagem
 ---
 ```
 
+
+### `iframe-left`
+
+Shows a web page on the left side of the screen, the content will be placed on the right side.
+
+#### Usage
+
+```yaml
+---
+layout: iframe-left
+
+# the web page source
+url: https://github.com/slidevjs/slidev
+
+# a custom class name to the content
+class: my-cool-content-on-the-right
+---
+```
+
+### `iframe-right`
+
+Shows a web page on the right side of the screen, the content will be placed on the left side.
+
+#### Usage
+
+```yaml
+---
+layout: iframe-right
+
+# the web page source
+url: https://github.com/slidevjs/slidev
+
+# a custom class name to the content
+class: my-cool-content-on-the-left
+---
+```
+
+### `iframe`
+
+Shows a web page as the main content of the page.
+
+#### Usage
+
+```yaml
+---
+layout: iframe
+
+# the web page source
+url: https://github.com/slidevjs/slidev
+---
+```
+
+
 ### `intro`
 
 Para introduzir a apresentação, geralmente com o título, uma descrição curta, o autor, etc.
