@@ -60,8 +60,13 @@ import { defineShikiSetup } from '@slidev/types'
 export default defineShikiSetup(async({ loadTheme }) => {
   return {
     theme: {
+<<<<<<< HEAD
       dark: await loadTheme('caminho/para/tema.json')),
       light: await loadTheme('caminho/para/tema.json')),
+=======
+      dark: await loadTheme('path/to/theme.json'),
+      light: await loadTheme('path/to/theme.json'),
+>>>>>>> c393c03ca6c46af4a218f37db04bc399bde16088
     },
   }
 })
