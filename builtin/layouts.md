@@ -15,7 +15,11 @@ Usado para exibir a página de capa para a apresentação, pode conter o título
 
 ### `default`
 
+<<<<<<< HEAD
 O layout mais básico, para exibir qualquer conteúdo.
+=======
+The most basic layout, to display any kind of content.
+>>>>>>> fbc97d802e30cc663321c93b32fff3cee9ca7ff9
 
 ### `end`
 
