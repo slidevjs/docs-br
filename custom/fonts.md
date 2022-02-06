@@ -100,7 +100,7 @@ Atualmente, apenas o Google Fonts é suportado, nós planejamos adicionar mais p
 ```yaml
 ---
 fonts:
-  provide: 'none'
+  provider: 'none'
 ---
 ```
 
