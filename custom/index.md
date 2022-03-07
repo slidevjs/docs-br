@@ -33,8 +33,15 @@ aspectRatio: '16/9'
 # largura real da tela, unidade em px
 canvasWidth: 980
 
+<<<<<<< HEAD
 # fontes serão automaticamente importadas do Google fonts
 # Saiba mais: https://sli.dev/custom/fonts
+=======
+# favicon, can be a local file path or URL
+favicon: 'https://cdn.jsdelivr.net/gh/slidevjs/slidev/assets/favicon.png'
+# fonts will be auto imported from Google fonts
+# Learn more: https://sli.dev/custom/fonts
+>>>>>>> 61b06f20d904b70a8b14d4b69879ed25d0f08510
 fonts:
   sans: 'Roboto'
   serif: 'Roboto Slab'
