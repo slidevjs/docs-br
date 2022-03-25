@@ -20,7 +20,17 @@ $ slidev export
 Após alguns segundos, seus slides estarão prontos em `./slides-exports.pdf`.
 ### Exportar etapas de cliques
 
+<<<<<<< HEAD
 > Disponível a partir da v0.21
+=======
+In case you want to export your slides using the dark version of the theme, use the `--dark` option:
+
+```bash
+$ slidev export --dark
+```
+
+### Export Clicks Steps
+>>>>>>> d68398ac58d3e8efc2f6d29119938f4a4382f617
 
 Por padrão, o Slidev exporta uma página por slide com as animações de clique desabilitadas. Se você quiser exportar slides com múltiplas etapas entre múltiplas páginas, passe a opção `--with-clicks`.
 
