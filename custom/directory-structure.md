@@ -115,8 +115,12 @@ import './code.css'
 import './layouts.css'
 ```
 
+<<<<<<< HEAD
 Estilos serão processados pelo [Windi CSS](http://windicss.org/) e o [PostCSS](https://postcss.org/), portanto você pode usar aninhamento de css e as [at-directives](https://windicss.org/features/directives.html) sem nenhuma configuração adicional.
 Por exemplo:
+=======
+Styles will be processed by [Windi CSS](https://windicss.org/) and [PostCSS](https://postcss.org/), so you can use css nesting and [at-directives](https://windicss.org/features/directives.html) out-of-box. For example:
+>>>>>>> 0d7183dcb5054d1cc1d9af406b951526a92f09b6
 
 ```less
 .slidev-layout {
