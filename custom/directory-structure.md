@@ -5,6 +5,7 @@ O Slidev emprega algumas convenções de estrutura de diretório para minimizar 
 A estrutura básica é a seguinte:
 
 ```bash
+<<<<<<< HEAD
 seu-slidev/
   ├── components/       # componentes customizados
   ├── layouts/          # layouts customizados
@@ -14,6 +15,17 @@ seu-slidev/
   ├── index.html        # injeções ao index.html
   ├── slides.md         # a entrada principal dos slides
   └── vite.config.ts    # extensões às configurações do vite
+=======
+your-slidev/
+  ├── components/       # custom components
+  ├── layouts/          # custom layouts
+  ├── public/           # static assets
+  ├── setup/            # custom setup / hooks
+  ├── styles/           # custom style
+  ├── index.html        # injections to index.html
+  ├── slides.md         # the main slides entry
+  └── vite.config.ts    # extending vite config
+>>>>>>> c8121c161efd5a726d336648d2b101540c346dd2
 ```
 
 Todos eles são opcionais.
@@ -115,8 +127,12 @@ import './code.css'
 import './layouts.css'
 ```
 
+<<<<<<< HEAD
 Estilos serão processados pelo [Windi CSS](http://windicss.org/) e o [PostCSS](https://postcss.org/), portanto você pode usar aninhamento de css e as [at-directives](https://windicss.org/features/directives.html) sem nenhuma configuração adicional.
 Por exemplo:
+=======
+Styles will be processed by [Windi CSS](https://windicss.org/) and [PostCSS](https://postcss.org/), so you can use css nesting and [at-directives](https://windicss.org/features/directives.html) out-of-box. For example:
+>>>>>>> c8121c161efd5a726d336648d2b101540c346dd2
 
 ```less
 .slidev-layout {
