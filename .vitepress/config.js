@@ -70,6 +70,17 @@ const Theme = [
   },
 ]
 
+const Addon = [
+  {
+    text: 'Use Addon',
+    link: '/addons/use',
+  },
+  {
+    text: 'Write an Addon',
+    link: '/addons/write-an-addon',
+  },
+]
+
 const Translations = [
   {
     text: 'Português (BR)',
@@ -105,6 +116,10 @@ const Translations = [
   {
     text: 'Ελληνικά',
     link: 'https://el.sli.dev{{pathname}}',
+  },
+  {
+    text: '日本語',
+    link: 'https://ja.sli.dev{{pathname}}',
   },
 ]
 
@@ -188,7 +203,15 @@ const slidebars = [
     children: Theme,
   },
   {
+<<<<<<< HEAD
     text: 'Customizações',
+=======
+    text: 'Addons',
+    children: Addon,
+  },
+  {
+    text: 'Customizations',
+>>>>>>> 8b430eefeed2277fc07f273ce000804365333b56
     children: Customizations,
   },
   {
@@ -251,7 +274,15 @@ module.exports = {
         items: Theme,
       },
       {
+<<<<<<< HEAD
         text: 'Customizações',
+=======
+        text: 'Addon',
+        items: Addon,
+      },
+      {
+        text: 'Customize',
+>>>>>>> 8b430eefeed2277fc07f273ce000804365333b56
         items: Customizations,
       },
       {
@@ -267,6 +298,7 @@ module.exports = {
     sidebar: {
       '/guide/': slidebars,
       '/themes/': slidebars,
+      '/addons/': slidebars,
       '/custom/': slidebars,
       '/builtin/': slidebars,
       '/resources/': slidebars,
