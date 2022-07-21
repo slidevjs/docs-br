@@ -10,6 +10,7 @@ Você pode saber mais sobre a lógica por trás do projeto na seção [Por que S
 
 ### Funcionalidades
 
+<<<<<<< HEAD
 - 📝 [**Baseado em markdown**](/guide/syntax.html) - use seus editores fluxos de trabalho favoritos
 - 🧑‍💻 [**Feito para desenvolvedores**](/guide/syntax.html#blocos-de-codigo) - destaque de sintaxe integrado, desenvolvimento de código em tempo real, etc.
 - 🎨 [**Suporte a Temas**](/themes/gallery.html) - temas podem ser compartilhados e usados com pacotes do npm
@@ -25,11 +26,29 @@ Você pode saber mais sobre a lógica por trás do projeto na seção [Por que S
 - 📤 [**Portátil**](/guide/exporting.html) - exporte para PDF, PNGs, ou até mesmo uma aplicação SPA hospedável
 - ⚡️ [**Rápido**](https://vitejs.dev) - *refresh* instantâneo provido pelo [Vite](https://vitejs.dev)
 - 🛠 [**Customizável**](/custom/config-vite.html) - usando plug-ins do Vite, componentes do Vue, ou qualquer pacote do npm
+=======
+- 📝 [**Markdown-based**](/guide/syntax.html) - use your favorite editors and workflow
+- 🧑‍💻 [**Developer Friendly**](/guide/syntax.html#code-blocks) - built-in syntax highlighting, live coding, etc.
+- 🎨 [**Themable**](/themes/gallery.html) - theme can be shared and used with npm packages
+- 🌈 [**Stylish**](/guide/syntax.html#embedded-styles) - on-demand utilities via [Windi CSS](https://windicss.org/) or [UnoCSS](https://github.com/unocss/unocss).
+- 🤹 [**Interactive**](/custom/directory-structure.html#components) - embedding Vue components seamlessly
+- 🎙 [**Presenter Mode**](/guide/presenter-mode.html) - use another window, or even your phone to control your slides
+- 🎨 [**Drawing**](/guide/drawing.html) - draw and annotate on your slides
+- 🧮 [**LaTeX**](/guide/syntax.html#latex) - built-in LaTeX math equations support
+- 📰 [**Diagrams**](/guide/syntax.html#diagrams) - creates diagrams with textual descriptions 
+- 🌟 [**Icons**](/guide/syntax.html#icons) - Access to icons from any iconset directly
+- 💻 [**Editors**](/guide/editors.html) - integrated editor, or [extension for VS Code](https://github.com/slidevjs/slidev-vscode)
+- 🎥 [**Recording**](/guide/recording.html) - built-in recording and camera view
+- 📤 [**Portable**](/guide/exporting.html) - export into PDF, PNGs, or even a hostable SPA
+- ⚡️ [**Fast**](https://vitejs.dev) - instant reloading powered by [Vite](https://vitejs.dev)
+- 🛠 [**Hackable**](/custom/config-vite.html) - using Vite plugins, Vue components, or any npm packages
+>>>>>>> 8c6068ac1dd3da821a6d4ef1d039063dcb34bc25
 
 ### Tecnologias
 
 O Slidev é possível pela combinação dessas ferramentes e tecnologias.
 
+<<<<<<< HEAD
 - [Vite](https://vitejs.dev) - Uma ferramenta para front-end extremamente rápida
 - [Vue 3](https://v3.vuejs.org/) com [Markdown](https://daringfireball.net/projects/markdown/syntax) - Foco no conteúdo a ainda ter o poder do HTML e dos componentes do Vue quando precisar
 - [Windi CSS](https://github.com/windicss/windicss) - Framework CSS com utilidades sob demanda, estilize seus slides com facilidade
@@ -40,6 +59,18 @@ O Slidev é possível pela combinação dessas ferramentes e tecnologias.
 - [Drauu](https://github.com/antfu/drauu) - Suporte à desenhos e anotações
 - [KaTeX](https://katex.org/) - Renderização do LaTeX.
 - [Mermaid](https://mermaid-js.github.io/mermaid) - Diagramas baseados em texto.
+=======
+- [Vite](https://vitejs.dev) - An extremely fast frontend tooling
+- [Vue 3](https://v3.vuejs.org/) powered [Markdown](https://daringfireball.net/projects/markdown/syntax) - Focus on the content while having the power of HTML and Vue components whenever needed
+- [Windi CSS](https://github.com/windicss/windicss) or [UnoCSS](https://github.com/unocss/unocss) - On-demand utility-first CSS framework, style your slides at ease
+- [Prism](https://github.com/PrismJS/prism), [Shiki](https://github.com/shikijs/shiki), [Monaco Editor](https://github.com/Microsoft/monaco-editor) - First-class code snippets support with live coding capability
+- [RecordRTC](https://recordrtc.org) - Built-in recording and camera view
+- [VueUse](https://vueuse.org) family -  [`@vueuse/core`](https://github.com/vueuse/vueuse), [`@vueuse/head`](https://github.com/vueuse/head), [`@vueuse/motion`](https://github.com/vueuse/motion), etc.
+- [Iconify](https://iconify.design/) - Iconsets collection.
+- [Drauu](https://github.com/antfu/drauu) - Drawing and annotations support
+- [KaTeX](https://katex.org/) - LaTeX math rendering.
+- [Mermaid](https://mermaid-js.github.io/mermaid) - Textual Diagrams.
+>>>>>>> 8c6068ac1dd3da821a6d4ef1d039063dcb34bc25
 
 ### Criando Sua Primeira Apresentação
 
