@@ -29,4 +29,24 @@ Com a configuração, você pode fornecer as customizações para os atalhos men
 
 A função de configuração recebe um objeto com alguns métodos de navegação, e retorna um array contendo alguns atalhos de configuração. Confira as definições de tipos para mais detalhes.
 
+<<<<<<< HEAD
 Confira [useMagicKeys | VueUse](https://vueuse.org/core/useMagicKeys/) para mais detalhes sobre o evento de uma tecla pressionada.
+=======
+The `key` type only allows for strings, but you can still bind multiple keys by using following convention:
+
+```ts
+import { defineShortcutsSetup, NavOperations } from '@slidev/types'
+
+export default defineShortcutsSetup((nav: NavOperations) => {
+  return [
+    {
+      key: 'ShiftLeft+ArrowRight',
+      fn: () => nav.next(),
+      autoRepeat: true,
+    }
+  ]
+})
+```
+
+Refer to [useMagicKeys | VueUse](https://vueuse.org/core/useMagicKeys/) for more details about key pressed event.
+>>>>>>> ea87df4ac396a62567b3083d52e9bee2768b32bd
