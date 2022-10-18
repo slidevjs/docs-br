@@ -17,8 +17,18 @@ Agora exporte seus slides para PDF usando o seguinte comando
 $ slidev export
 ```
 
+<<<<<<< HEAD
 Após alguns segundos, seus slides estarão prontos em `./slides-exports.pdf`.
 ### Exportar etapas de cliques
+=======
+After a few seconds, your slides will be ready at `./slides-export.pdf`.
+
+In case you want to export your slides using the dark version of the theme, use the `--dark` option:
+
+```bash
+$ slidev export --dark
+```
+>>>>>>> ecd8bf022f3594c9efceac78aae2852a0055f9bf
 
 > Disponível a partir da v0.21
 

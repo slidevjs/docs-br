@@ -1,4 +1,9 @@
+<<<<<<< HEAD
 # Hospedagem Estática
+=======
+
+# Static Hosting
+>>>>>>> ecd8bf022f3594c9efceac78aae2852a0055f9bf
 
 ## Compilando Single Page Applications (SPA)
 
@@ -30,9 +35,15 @@ download: true
 ---
 ```
 
+<<<<<<< HEAD
 O Slidev vai gerar um arquivo PDF na compilação e um botão de download aparecerá na aplicação SPA.
 
 Você também pode prover uma URL customizada para o PDF. Nesse caso, o processo de renderização do arquivo será pulado.
+=======
+Slidev will generate a PDF file along with the build, and a download button will be displayed in the SPA.
+
+You can also provide a custom URL for the PDF. In that case, the rendering process will be skipped.
+>>>>>>> ecd8bf022f3594c9efceac78aae2852a0055f9bf
 
 ```md
 ---
@@ -51,7 +62,11 @@ Para mais, veja a [Galeria](/showcases).
 
 ## Hospedando
 
+<<<<<<< HEAD
 Nós recomendamos usar o comando `npm init slidev@lastest` para iniciar seu projeto, que já contém as configurações necessárias para serviços de hospedagem.
+=======
+We recommend to use `npm init slidev@latest` to scaffold your project, which contains the necessary configuration files for hosting services out-of-the-box.
+>>>>>>> ecd8bf022f3594c9efceac78aae2852a0055f9bf
 
 ### Netlify
 
@@ -73,7 +88,11 @@ Crie o arquivo `netlify.toml` na raiz do projeto com o seguinte conteúdo.
   status = 200
 ```
 
+<<<<<<< HEAD
 Depois vá para o seu painel de controle do Netlify e crie um novo site com o repositório.
+=======
+Then go to your Netlify dashboard and create a new site with the repository.
+>>>>>>> ecd8bf022f3594c9efceac78aae2852a0055f9bf
 
 ### Vercel
 
@@ -89,13 +108,23 @@ Crie o arquivo `vercel.json` na raiz do projeto com o seguinte conteúdo.
 }
 ```
 
+<<<<<<< HEAD
 Depois vá para o seu painel de controle da Vercel e crie um novo site com o repositório.
+=======
+Then go to your Vercel dashboard and create a new site with the repository.
+>>>>>>> ecd8bf022f3594c9efceac78aae2852a0055f9bf
 
 ## GitHub Pages
 
 - [GitHub Pages](https://pages.github.com/)
 
+<<<<<<< HEAD
 Crie o arquivo `.github/workflows/deploy.yml` com o seguinte conteúdo para implantar seus slides no Github Pages pelo Github Actions.
+=======
+To deploy your slides on GitHub Pages:
+- upload all the files of the project in your repo (i.e. named `name_of_repo`)
+- create `.github/workflows/deploy.yml` with following content to deploy your slides to GitHub Pages via GitHub Actions. In this file, replace `<name_of_repo>` with `name_of_repo`.
+>>>>>>> ecd8bf022f3594c9efceac78aae2852a0055f9bf
 
 ```yaml
 name: Deploy pages
@@ -110,8 +139,10 @@ jobs:
           node-version: '14'
       - name: Install dependencies
         run: npm install
+      - name: Install slidev
+        run:  npm i -g @slidev/cli
       - name: Build
-        run: npm run build
+        run: slidev build --base <name_of_repo>
       - name: Deploy pages
         uses: crazy-max/ghaction-github-pages@v2
         with:
@@ -119,3 +150,5 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 ```
+- In your repository, go to Settings>Pages. Under "Build and deployment", select "Deploy from a branch", select "gh-pages" and "root". Click on save.
+- Finally, after all workflows are executed, a link to the slides should appear under Settings>Pages.
