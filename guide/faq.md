@@ -43,7 +43,11 @@ A terceira coluna (10% da largura do elemento pai)
 </div>
 ```
 
+<<<<<<< HEAD
 Aprenda mais sobre [Windi CSS Grids](https://windicss.org/utilities/grid.html).
+=======
+Learn more about [Windi CSS Grids](https://windicss.org/utilities/layout/grid.html).
+>>>>>>> 7f25ea87516174a4aad5140a81bf55677df906c1
 
 ## Posicionamento
 

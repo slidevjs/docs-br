@@ -120,7 +120,11 @@ O Slidev alterna a classe `dark` no elemento `html` da página para trocar o esq
 
 As cores do destacador de sintaxe também são provenientes do tema. Nós suportamos tanto o [Prism](https://prismjs.com/) quanto o [Shiki](https://github.com/shikijs/shiki). Para mais informação consulte a [documentação do destaque de sintaxe](/custom/highlighters).
 
+<<<<<<< HEAD
 Você pode suportar um deles, ou os dois. Consulte os exemplos de configuração padrão de tema [`./styles/prism.css`](https://github.com/slidevjs/slidev/blob/main/packages/theme-default/styles/prism.css) / [`./setup/shiki.ts`](https://github.com/slidevjs/slidev/blob/main/packages/theme-default/setup/shiki.ts).
+=======
+You can support either one of them, or both. Refer to the default theme for configurations examples [`./styles/code.css`](https://github.com/slidevjs/slidev/blob/main/packages/create-theme/template/styles/code.css) / [`./setup/shiki.ts`](https://github.com/slidevjs/slidev/blob/main/packages/create-theme/template/setup/shiki.ts).
+>>>>>>> 7f25ea87516174a4aad5140a81bf55677df906c1
 
 Além disso, lembre-se de especificar os destacadores suportados no seu `package.json`:
 
