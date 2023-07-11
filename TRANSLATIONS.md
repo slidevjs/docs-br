@@ -79,6 +79,11 @@ In case it's already been translated but you're wondering how to maintain it, sk
 - [x] `use.md` - How to use Slidev themes
 - [x] `write-a-theme.md` - Write your own theme
 
+### addons/
+
+- [ ] `use.md` - How to use Slidev addons
+- [ ] `write-an-addon.md` - Write your own addon
+
 ## Publishing your translations
 
 - [x] When you finish the translation (at least 90%), `@antfu` in the Discord and we will invite you to the org and make the translation official.
