@@ -34,7 +34,11 @@ Aprenda mais sobre [destacadores](/custom/highlighters) e [configurações do Mo
 
 ## Rápido
 
+<<<<<<< HEAD
 O Slidev é construído com [Vite](https://vitejs.dev/), [Vue 3](https://v3.vuejs.org/) e [Windi CSS](https://windicss.org/), o que te proporciona uma experiência espetacular de desenvolvimento. Toda mudança que você fizer refletirá **instantaneamente** em seus slides.
+=======
+Slidev is powered by [Vite](https://vitejs.dev/), [Vue 3](https://v3.vuejs.org/) and [UnoCSS](https://unocss.dev/), which give you the most wonderful authoring experience. Every change you made will reflect to your slides **instantly**.
+>>>>>>> 8f99a82395e76f73b91f8a377d7462fdcd67120d
 
 Saiba mais sobre [nossas tecnologias](/guide/#tecnologias).
 
