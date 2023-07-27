@@ -60,7 +60,26 @@ Tem o mesmo comportamento do `v-click`, mas em vez de fazer o elemento aparecer,
 
 Um item se tornará visível a cada vez que você clicar em "próximo".
 
+<<<<<<< HEAD
 ### Contagem de Cliques Customizadas
+=======
+It accepts a `depth` props for nested list:
+
+```md
+<v-clicks depth="2">
+
+- Item 1
+  - Item 1.1
+  - Item 1.2
+- Item 2
+  - Item 2.1
+  - Item 2.2
+
+</v-clicks>
+```
+
+### Custom Clicks Count
+>>>>>>> cd758d99f59b0813a49eb6fe4bb3f07e1b2b4887
 
 Por padrão, o Slidev calcula quantos passos são necessários antes de passar para o próximo slide. Você pode sobrepor está configuração informando a propriedade `clicks` no frontmatter:
 
@@ -198,6 +217,84 @@ O texto `Slidev` se moverá de `-80px` até sua posição original na inicializa
 
 Saiba mais: [Demonstração](https://sli.dev/demo/starter/7) | [@vueuse/motion](https://motion.vueuse.org/) | [v-motion](https://motion.vueuse.org/directive-usage.html) | [Presets](https://motion.vueuse.org/presets.html)
 
+<<<<<<< HEAD
 ## Transições de Página
 
 > O suporte integrado para transição entre slides AINDA NÂO é provido na versão atual. Estamos planejando adicionar o suporte na próxima versão principal. Até lá, você ainda pode usar estilos customizados e bibliotecas para fazer isso.
+=======
+## Slide Transitions
+
+<div id="pages-transitions" />
+
+> Available since v0.39.0
+
+Slidev supports slide transitions out of the box. You can enable it by setting the `transition` frontmatter option:
+
+```md
+---
+transition: slide-left
+---
+```
+
+This will give you a nice sliding effects on slide switching. Setting it in the frontmatter will apply to all slides. You can also set different transition per slide.
+
+### Builtin Transitions
+
+- `fade` - Crossfade in/out
+- `fade-out` - Fade out and then fade in
+- `slide-left` - Slides to the left (slide to right when going backward)
+- `slide-right` - Slides to the right (slide to left when going backward)
+- `slide-up` - Slides to the top (slide to bottom when going backward)
+- `slide-down` - Slides to the bottom (slide to top when going backward)
+
+### Custom Transitions
+
+Slidev's slide transitions are powered by [Vue Transition](https://vuejs.org/guide/built-ins/transition.html). You can provide your custom transitions by:
+
+```md
+---
+transition: my-transition
+---
+```
+
+and then in your custom stylesheets:
+
+```css
+.my-transition-enter-active,
+.my-transition-leave-active {
+  transition: opacity 0.5s ease;
+}
+
+.my-transition-enter-from,
+.my-transition-leave-to {
+  opacity: 0;
+}
+```
+
+Learn more how it works in [Vue Transition](https://vuejs.org/guide/built-ins/transition.html).
+
+### Forward & Backward Transitions
+
+You can specify different transitions for forward and backward navigation using `|` as a separator in the transition name:
+
+```md
+---
+transition: go-forward | go-backward
+---
+```
+
+With this, when you go from slide 1 to slide 2, the `go-forward` transition will be applied. When you go from slide 2 to slide 1, the `go-backward` transition will be applied.
+
+### Advanced Usage
+
+The `transition` field accepts an option that will passed to the [`<TransitionGroup>`](https://vuejs.org/api/built-in-components.html#transition) component. For example:
+
+```md
+---
+transition:
+  name: my-transition
+  enterFromClass: custom-enter-from
+  enterActiveClass: custom-enter-active
+---
+```
+>>>>>>> cd758d99f59b0813a49eb6fe4bb3f07e1b2b4887
