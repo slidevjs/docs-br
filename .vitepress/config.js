@@ -70,6 +70,17 @@ const Theme = [
   },
 ]
 
+const Addon = [
+  {
+    text: 'Use Addon',
+    link: '/addons/use',
+  },
+  {
+    text: 'Write an Addon',
+    link: '/addons/write-an-addon',
+  },
+]
+
 const Translations = [
   {
     text: 'Português (BR)',
@@ -106,6 +117,10 @@ const Translations = [
     text: 'Ελληνικά',
     link: 'https://el.sli.dev{{pathname}}',
   },
+  {
+    text: '日本語',
+    link: 'https://ja.sli.dev{{pathname}}',
+  },
 ]
 
 const Customizations = [
@@ -134,7 +149,15 @@ const Customizations = [
     link: '/custom/config-vite',
   },
   {
+<<<<<<< HEAD
     text: 'Configurar Windi CSS',
+=======
+    text: 'Configure UnoCSS',
+    link: '/custom/config-unocss',
+  },
+  {
+    text: 'Configure Windi CSS',
+>>>>>>> 11d34750b965b68677cad6bd79bec396dc878cea
     link: '/custom/config-windicss',
   },
   {
@@ -150,7 +173,15 @@ const Customizations = [
     link: '/custom/config-mermaid',
   },
   {
+<<<<<<< HEAD
     text: 'Configurar Atalhos',
+=======
+    text: 'Configure Parser',
+    link: '/custom/config-parser',
+  },
+  {
+    text: 'Configure Shortcuts',
+>>>>>>> 11d34750b965b68677cad6bd79bec396dc878cea
     link: '/custom/config-shortcuts',
   },
   {
@@ -161,6 +192,17 @@ const Customizations = [
     text: 'Camadas Globais',
     link: '/custom/global-layers',
   }
+]
+
+const BuiltIn = [
+  {
+    text: 'Components',
+    link: '/builtin/components',
+  },
+  {
+    text: 'Layouts',
+    link: '/builtin/layouts',
+  },
 ]
 
 const Resources = [
@@ -188,6 +230,7 @@ const slidebars = [
     children: Theme,
   },
   {
+<<<<<<< HEAD
     text: 'Customizações',
     children: Customizations,
   },
@@ -203,6 +246,18 @@ const slidebars = [
         link: '/builtin/layouts',
       },
     ],
+=======
+    text: 'Addons',
+    children: Addon,
+  },
+  {
+    text: 'Customizations',
+    children: Customizations,
+  },
+  {
+    text: 'Built-in',
+    children: BuiltIn,
+>>>>>>> 11d34750b965b68677cad6bd79bec396dc878cea
   },
 ]
 
@@ -233,7 +288,8 @@ module.exports = {
     editLinkText: 'Sugerir mudanças à essa página',
 
     algolia: {
-      apiKey: '1a5c5a504139c58f428974c78c55291d',
+      appId: 'LCBV6MIFS6',
+      apiKey: '1ff173fe73b20edc962c1c24c0b1c160',
       indexName: 'slidev',
       searchParameters: {
         // for translations maintainers: change the filter to your locale code (subdomain name)
@@ -251,11 +307,27 @@ module.exports = {
         items: Theme,
       },
       {
+<<<<<<< HEAD
         text: 'Customizações',
         items: Customizations,
       },
       {
         text: 'Recursos',
+=======
+        text: 'Addon',
+        items: Addon,
+      },
+      {
+        text: 'Customize',
+        items: Customizations,
+      },
+      {
+        text: 'Built-in',
+        items: BuiltIn,
+      },
+      {
+        text: 'Resources',
+>>>>>>> 11d34750b965b68677cad6bd79bec396dc878cea
         items: Resources,
       },
       {
@@ -267,6 +339,7 @@ module.exports = {
     sidebar: {
       '/guide/': slidebars,
       '/themes/': slidebars,
+      '/addons/': slidebars,
       '/custom/': slidebars,
       '/builtin/': slidebars,
       '/resources/': slidebars,
