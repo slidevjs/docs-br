@@ -2,7 +2,11 @@
 
 <Environment type="node" />
 
+<<<<<<< HEAD
 O Slidev usa o [Vite](http://vitejs.dev/) por baixo dos panos. Isso significa que você pode aproveitar o excelente sistema de plug-ins do Vite para personalizar ainda mais seus slides.
+=======
+Slidev is powered by [Vite](https://vitejs.dev/) under the hood. This means you can leverage Vite's great plugin system to customize your slides even further.
+>>>>>>> b67d676136c95f0c62ed494856d5c2e15901838e
 
 O arquivo `vite.config.ts` será seguido se você tiver um.
 
@@ -11,9 +15,10 @@ O Slidev possui os seguintes plug-ins pré-configurados:
 - [@vitejs/plugin-vue](https://github.com/vitejs/vite/tree/main/packages/plugin-vue)
 - [unplugin-vue-components](https://github.com/antfu/unplugin-vue-components)
 - [unplugin-icons](https://github.com/antfu/unplugin-icons)
-- [vite-plugin-md](https://github.com/antfu/vite-plugin-md)
-- [vite-plugin-windicss](https://github.com/windicss/vite-plugin-windicss)
+- [vite-plugin-vue-markdown](https://github.com/antfu/vite-plugin-vue-markdown)
 - [vite-plugin-remote-assets](https://github.com/antfu/vite-plugin-remote-assets)
+- [vite-plugin-windicss](https://github.com/windicss/vite-plugin-windicss)
+- [unocss/vite](https://github.com/unocss/unocss/tree/main/packages/vite)
 
 Saiba mais sobre as [pré-configurações aqui](https://github.com/slidevjs/slidev/blob/main/packages/slidev/node/plugins/preset.ts).
 
