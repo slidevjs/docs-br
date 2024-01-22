@@ -12,12 +12,21 @@ Depois você pode modificar e brincar com o tema. Você também pode consultar o
 
 Um tema pode contribuir nos seguintes pontos:
 
+<<<<<<< HEAD
 - Estilos globais
 - Prover configurações padrão (fontes, esquema de cor, destacadores, etc.)
 - Prover layouts customizados ou sobrepor um existentes
 - Prover componentes customizados ou sobrepor existentes
 - Estender as configurações do Windi CSS
 - Configurar ferramentas como Monaco e Prism
+=======
+- Global styles
+- Provide default configurations (fonts, color schema, highlighters, etc.)
+- Provide custom layouts or override the existing one
+- Provide custom components or override the existing one
+- Extend UnoCSS/Windi CSS configurations
+- Configure tools like Monaco and Prism
+>>>>>>> 9b64ca249c101e7e425d7ca81aebba12658b9b97
 
 ## Convenções
 
@@ -64,7 +73,7 @@ Um tema pode prover [configurações](/custom/#configuracoes-do-frontmatter) pad
 // package.json
 {
   "slidev": {
-    "default": {
+    "defaults": {
       "aspectRatio": "16/9",
       "canvasWidth": 980,
       "fonts": {
@@ -118,9 +127,15 @@ O Slidev alterna a classe `dark` no elemento `html` da página para trocar o esq
 
 ### Destacador
 
+<<<<<<< HEAD
 As cores do destacador de sintaxe também são provenientes do tema. Nós suportamos tanto o [Prism](https://prismjs.com/) quanto o [Shiki](https://github.com/shikijs/shiki). Para mais informação consulte a [documentação do destaque de sintaxe](/custom/highlighters).
 
 Você pode suportar um deles, ou os dois. Consulte os exemplos de configuração padrão de tema [`./styles/prism.css`](https://github.com/slidevjs/slidev/blob/main/packages/theme-default/styles/prism.css) / [`./setup/shiki.ts`](https://github.com/slidevjs/slidev/blob/main/packages/theme-default/setup/shiki.ts).
+=======
+Syntax highlighting colors are also provided in the theme. We support both [Prism](https://prismjs.com/), [Shiki](https://github.com/shikijs/shiki) and [Shikiji](https://github.com/antfu/shikiji). For more information please refer to [the syntax highlighting docs](/custom/highlighters).
+
+You can support either one of them, or both. Refer to the default theme for configurations examples [`./styles/code.css`](https://github.com/slidevjs/slidev/blob/main/packages/create-theme/template/styles/code.css) / [`./setup/shiki.ts`](https://github.com/slidevjs/slidev/blob/main/packages/create-theme/template/setup/shiki.ts).
+>>>>>>> 9b64ca249c101e7e425d7ca81aebba12658b9b97
 
 Além disso, lembre-se de especificar os destacadores suportados no seu `package.json`:
 
@@ -128,7 +143,11 @@ Além disso, lembre-se de especificar os destacadores suportados no seu `package
 // package.json
 {
   "slidev": {
+<<<<<<< HEAD
     "highlighter": "shiki" // ou "prism" ou "all"
+=======
+    "highlighter": "shiki" // or "prism" or "both"
+>>>>>>> 9b64ca249c101e7e425d7ca81aebba12658b9b97
   }
 }
 ```
