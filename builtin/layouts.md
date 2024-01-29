@@ -7,7 +7,11 @@
 
 ### `center`
 
+<<<<<<< HEAD
 Exibe o conteúdo no meio da tela.
+=======
+Displays the content in the middle of the screen.
+>>>>>>> 0ef9dde3b1b07a8fc34763e4b83520b893460024
 
 ### `cover`
 
@@ -15,7 +19,11 @@ Usado para exibir a página de capa para a apresentação, pode conter o título
 
 ### `default`
 
+<<<<<<< HEAD
 O layout mais básico, para exibir qualquer conteúdo.
+=======
+The most basic layout, to display any kind of content.
+>>>>>>> 0ef9dde3b1b07a8fc34763e4b83520b893460024
 
 ### `end`
 
@@ -176,7 +184,38 @@ Isto está à esquerda
 Isto está à direita
 ```
 
+<<<<<<< HEAD
 ## Layouts Customizados
+=======
+### `two-cols-header`
+
+Separates the upper and lower lines of the page content, and the second line separates the left and right columns.
+
+#### Usage
+
+
+```md
+---
+layout: two-cols-header
+---
+
+This spans both
+
+::left::
+
+# Left
+
+This shows on the left
+
+::right::
+
+# Right
+
+This shows on the right
+```
+
+## Custom Layouts
+>>>>>>> 0ef9dde3b1b07a8fc34763e4b83520b893460024
 
 Crie um diretório `layouts/` no diretório raiz do projeto, e simplesmente insira os componentes do seu layout customizado do Vue lá dentro.
 
