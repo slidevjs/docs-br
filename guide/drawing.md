@@ -6,7 +6,7 @@ Nós temos o [drauu](https://github.com/antfu/drauu) embutido para desenhos e an
 
 Pra começar, clique no ícone <carbon-pen class="inline-icon-btn"/> na barra de navegação e comece a desenhar. Isto também está disponível no [Modo Apresentador](/guide/presenter-mode). Desenhos e anotações que você ciar serão **sincronizadas** automaticamente por todas as instâncias em tempo real.
 
-<Tweet id="1424027510342250499" />
+<TheTweet id="1424027510342250499" />
 
 ## Use com uma caneta Stylus
 
@@ -18,7 +18,7 @@ A seguinte configuração do frontmatter te permite manter os desenhos como SVGs
 
 ```md
 ---
-drawings: 
+drawings:
   persist: true
 ---
 ```
@@ -29,7 +29,7 @@ Inteiramente:
 
 ```md
 ---
-drawings: 
+drawings:
   enabled: false
 ---
 ```
@@ -38,7 +38,7 @@ Apenas no Desenvolvimento:
 
 ```md
 ---
-drawings: 
+drawings:
   enabled: dev
 ---
 ```
@@ -47,7 +47,7 @@ Apenas no Modo de Apresentador:
 
 ```md
 ---
-drawings: 
+drawings:
   presenterOnly: true
 ---
 ```
@@ -58,9 +58,13 @@ Por  padrão, o Slidev sincroniza os seus desenhos por todas as instâncias. Se 
 
 ```md
 ---
-drawings: 
+drawings:
   syncAll: false
 ---
 ```
 
+<<<<<<< HEAD
 Com esta configuração, só os desenhos da instância do apresentador serão sincronizados com as outras.
+=======
+With this config, only the drawing from the presenter instance will be able to sync with others.
+>>>>>>> 9bbccbb1bd2d1d93f3d376ed06c73986710dd518
