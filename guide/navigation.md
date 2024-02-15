@@ -2,7 +2,11 @@
 
 ## Barra de Navegação
 
+<<<<<<< HEAD
 Mova seu mouse para o canto inferior esquerdo da página do Slidev, a barra de navegação aparecerá.
+=======
+Move your mouse to the bottom left corner of Slidev page to make the navigation bar appear.
+>>>>>>> 5bb36b886ae9009e4661ee060cce1d86954d7280
 
 ![](/screenshots/navbar.png)
 
@@ -28,6 +32,10 @@ Mova seu mouse para o canto inferior esquerdo da página do Slidev, a barra de n
 
 ## Visualização dos Slides
 
+<<<<<<< HEAD
 Ao apertar <kbd>o</kbd> ou clicar no botão <carbon-apps class="inline-icon-btn"/> na barra de navegação, você pode ter uma visão geral dos slides para que você possa alterná-los facilmente.
+=======
+By pressing <kbd>o</kbd> or clicking the <carbon-apps class="inline-icon-btn"/> button in the navigation bar, you can have the overview of your slides so you can jump between them easily.
+>>>>>>> 5bb36b886ae9009e4661ee060cce1d86954d7280
 
 ![](/screenshots/slides-overview.png)
