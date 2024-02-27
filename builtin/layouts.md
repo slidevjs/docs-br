@@ -4,10 +4,13 @@
 
 > Já que temas podem sobrepor o comportamento dos layouts, o melhor jeito de saber exatamente o uso, parâmetros e exemplos é consultando suas respectivas documentações.
 
-
 ### `center`
 
+<<<<<<< HEAD
 Exibe o conteúdo no meio da tela.
+=======
+Displays the content in the middle of the screen.
+>>>>>>> 55df176a16c5693491d5823c68f1af798e1f718f
 
 ### `cover`
 
@@ -15,7 +18,11 @@ Usado para exibir a página de capa para a apresentação, pode conter o título
 
 ### `default`
 
+<<<<<<< HEAD
 O layout mais básico, para exibir qualquer conteúdo.
+=======
+The most basic layout, to display any kind of content.
+>>>>>>> 55df176a16c5693491d5823c68f1af798e1f718f
 
 ### `end`
 
@@ -80,6 +87,23 @@ image: ./caminho/para/a/imagem
 ---
 ```
 
+You can change the default background size (`cover`) by adding the `backgroundSize` attribute:
+
+```yaml
+---
+layout: image
+image: ./path/to/the/image
+backgroundSize: contain
+---
+```
+
+```yaml
+---
+layout: image-left
+image: ./path/to/the/image
+backgroundSize: 20em 70%
+---
+```
 
 ### `iframe-left`
 
@@ -132,7 +156,6 @@ url: https://github.com/slidevjs/slidev
 ---
 ```
 
-
 ### `intro`
 
 Para introduzir a apresentação, geralmente com o título, uma descrição curta, o autor, etc.
@@ -159,7 +182,6 @@ Separa o conteúdo da página em duas colunas.
 
 #### Uso
 
-
 ```md
 ---
 layout: two-cols
@@ -176,7 +198,37 @@ Isto está à esquerda
 Isto está à direita
 ```
 
+<<<<<<< HEAD
 ## Layouts Customizados
+=======
+### `two-cols-header`
+
+Separates the upper and lower lines of the page content, and the second line separates the left and right columns.
+
+#### Usage
+
+```md
+---
+layout: two-cols-header
+---
+
+This spans both
+
+::left::
+
+# Left
+
+This shows on the left
+
+::right::
+
+# Right
+
+This shows on the right
+```
+
+## Custom Layouts
+>>>>>>> 55df176a16c5693491d5823c68f1af798e1f718f
 
 Crie um diretório `layouts/` no diretório raiz do projeto, e simplesmente insira os componentes do seu layout customizado do Vue lá dentro.
 
