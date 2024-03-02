@@ -5,6 +5,7 @@ O Slidev emprega algumas convenções de estrutura de diretório para minimizar 
 A estrutura básica é a seguinte:
 
 ```bash
+<<<<<<< HEAD
 seu-slidev/
   ├── components/       # componentes customizados
   ├── layouts/          # layouts customizados
@@ -14,6 +15,17 @@ seu-slidev/
   ├── index.html        # injeções ao index.html
   ├── slides.md         # a entrada principal dos slides
   └── vite.config.ts    # extensões às configurações do vite
+=======
+your-slidev/
+  ├── components/       # custom components
+  ├── layouts/          # custom layouts
+  ├── public/           # static assets
+  ├── setup/            # custom setup / hooks
+  ├── styles/           # custom style
+  ├── index.html        # injections to index.html
+  ├── slides.md         # the main slides entry
+  └── vite.config.ts    # extending vite config
+>>>>>>> e8054222645741a1f15a6138c2b0b6a091fb43a1
 ```
 
 Todos eles são opcionais.
@@ -48,7 +60,11 @@ seu-slidev/
 </hello-world>
 ```
 
+<<<<<<< HEAD
 Esta funcionalidade é fornecida pelo [`vite-plugin-components`](https://github.com/antfu/vite-plugin-components), saiba mais por lá.
+=======
+This feature is powered by [`unplugin-vue-components`](https://github.com/antfu/unplugin-vue-components), learn more there.
+>>>>>>> e8054222645741a1f15a6138c2b0b6a091fb43a1
 
 O Slidev também disponibiliza alguns [componentes embutidos](/builtin/components) pra você usar.
 
@@ -115,19 +131,23 @@ import './code.css'
 import './layouts.css'
 ```
 
+<<<<<<< HEAD
 Estilos serão processados pelo [Windi CSS](http://windicss.org/) e o [PostCSS](https://postcss.org/), portanto você pode usar aninhamento de css e as [at-directives](https://windicss.org/features/directives.html) sem nenhuma configuração adicional.
 Por exemplo:
+=======
+Styles will be processed by [UnoCSS](https://unocss.dev/) and [PostCSS](https://postcss.org/), so you can use css nesting and [at-directives](https://unocss.dev/transformers/directives#apply) out-of-box. For example:
+>>>>>>> e8054222645741a1f15a6138c2b0b6a091fb43a1
 
 ```less
 .slidev-layout {
-  @apply px-14 py-10 text-[1.1rem];
+  --uno: px-14 py-10 text-[1.1rem];
 
   h1, h2, h3, h4, p, div {
-    @apply select-none;
+    --uno: select-none;
   }
 
   pre, code {
-    @apply select-text;
+    --uno: select-text;
   }
 
   a {
@@ -136,7 +156,11 @@ Por exemplo:
 }
 ```
 
+<<<<<<< HEAD
 [Aprenda mais sobre a sintaxe](https://windicss.org/features/directives.html).
+=======
+[Learn more about the syntax](https://unocss.dev/transformers/directives#apply).
+>>>>>>> e8054222645741a1f15a6138c2b0b6a091fb43a1
 
 ## `index.html`
 
@@ -184,5 +208,9 @@ O `index.html` final hospedado será:
 
 Convenções: `global-top.vue` | `global-bottom.vue`
 
+<<<<<<< HEAD
 Saiba mais: [Camadas Globais](/custom/global-layers)
 
+=======
+Learn more: [Global Layers](/custom/global-layers)
+>>>>>>> e8054222645741a1f15a6138c2b0b6a091fb43a1
