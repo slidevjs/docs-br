@@ -4,7 +4,11 @@
 
 Já que o Slidev é baseado na Web, você pode aplicar qualquer layout de grid como quiser. [CSS Grids](https://css-tricks.com/snippets/css/complete-guide-grid/), [flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/), ou até [Masonry](https://css-tricks.com/native-css-masonry-layout-in-css-grid/), você tem total controle.
 
+<<<<<<< HEAD
 Como nós temos o [Windi CSS](https://windicss.org/) integrado, aqui vai um jeito simples de você fazer isso:
+=======
+Since we have [UnoCSS](https://unocss.dev/) built-in, here is one simple way for you to reference:
+>>>>>>> ee683ae81a2021c44b278d720a418ee0c6ddb537
 
 ```html
 <div class="grid grid-cols-2 gap-4">
@@ -24,7 +28,7 @@ A segunda coluna
 Vá além, você pode customizar o tamanho de cada coluna assim:
 
 ```html
-<div class="grid grid-cols-[200px,1fr,10%] gap-4">
+<div class="grid grid-cols-[200px_1fr_10%] gap-4">
 <div>
 
 A primeira coluna (200px)
@@ -43,9 +47,13 @@ A terceira coluna (10% da largura do elemento pai)
 </div>
 ```
 
+<<<<<<< HEAD
 Aprenda mais sobre [Windi CSS Grids](https://windicss.org/utilities/grid.html).
 
 ## Posicionamento
+=======
+## Positioning
+>>>>>>> ee683ae81a2021c44b278d720a418ee0c6ddb537
 
 Os slides são definidos em um tamanho fixo (padrão `980x552px`) e se ajusta para caber na tela do usuário. Você pode tranquilamente usar posições absolutas em seus slides e elas serão expandidas com a tela.
 
@@ -96,7 +104,7 @@ Saiba mais: [Estilos Integrados](/guide/syntax.html#estilos-integrados)
 Você pode fornecer estilos globais customizados criando um arquivo `./style.css`, por exemplo:
 
 ```css
-/* style.css */ 
+/* style.css */
 
 h1 {
   font-size: 10em !important;
