@@ -6,7 +6,11 @@ Se você quiser certo gerenciamento de alto-nível em seus slides, nós provemos
 
 ## Editor Integrado
 
+<<<<<<< HEAD
 O Slidev vem com um editor [CodeMirror](https://codemirror.net/) integrado que vai instantaneamente recarregar e salvar as alterações no seu arquivo.
+=======
+Slidev comes with an integrated [CodeMirror](https://codemirror.net/) editor that will instantly reload and save the changes to your file.
+>>>>>>> ee683ae81a2021c44b278d720a418ee0c6ddb537
 
 Clique no botão <carbon-edit class="inline-icon-btn"/> para abri-lo.
 
@@ -40,4 +44,8 @@ A extensão do VS Code fornece algumas funcionalidades para te ajudar a organiza
 
 ![](https://user-images.githubusercontent.com/11247099/116809994-cc2caa00-ab73-11eb-879f-60585747c3c9.png)
 
-<Tweet id="1395333405345148930" />
+<TheTweet id="1395333405345148930" />
+
+## Prettier Plugin
+
+Slidev also provides a Prettier plugin to format your slides. You can use it with your favorite editor that supports Prettier. Docs for the plugin can be found [here](https://github.com/slidevjs/prettier-plugin).
