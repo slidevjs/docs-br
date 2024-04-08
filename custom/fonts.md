@@ -9,12 +9,21 @@ No seu frontmatter, configure assim:
 ```yaml
 ---
 fonts:
+<<<<<<< HEAD
   # basicamente o texto
   sans: 'Robot'
   # use com a classe `font-serif` do windicss 
   serif: 'Robot Slab'
   # para blocos de código, códigos inline, etc.
   mono: 'Fira Code'
+=======
+  # basically the text
+  sans: Robot
+  # use with `font-serif` css class from UnoCSS
+  serif: Robot Slab
+  # for code blocks, inline code, etc.
+  mono: Fira Code
+>>>>>>> 69e1142c6f07cb04fb7fea7f396de60cd1f0538f
 ---
 ```
 
@@ -24,15 +33,24 @@ As fontes serão **importadas automaticamente do [Google Fonts](https://fonts.go
 
 ## Fontes Locais
 
+<<<<<<< HEAD
 Por padrão, o Slidev assume que todas as fontes especificadas por meio da configuração `fonts` vêm do Google Fonts. Se você quiser usar fontes locais, especifique o `fonts.local` para interromper a importação automática.
+=======
+By default, Slidev assumes all the fonts specified via `fonts` configurations come from Google Fonts. If you want to use local fonts, specify the `fonts.local` to opt-out the auto-importing.
+>>>>>>> 69e1142c6f07cb04fb7fea7f396de60cd1f0538f
 
 ```yaml
 ---
 fonts:
   # assim como no font-family do css, você pode usar `,` para separar múltiplas como substitutas
   sans: 'Helvetica Neue,Robot'
+<<<<<<< HEAD
   # marca 'Helvetica Neue' como uma fonte local
   local: 'Helvetica Neue'
+=======
+  # mark 'Helvetica Neue' as local font
+  local: Helvetica Neue
+>>>>>>> 69e1142c6f07cb04fb7fea7f396de60cd1f0538f
 ---
 ```
 
@@ -43,8 +61,13 @@ Por padrão, o Slidev importa três espessuras `200`,`400`,`600` para cada fonte
 ```yaml
 ---
 fonts:
+<<<<<<< HEAD
   sans: 'Robot'
   # padrão
+=======
+  sans: Robot
+  # default
+>>>>>>> 69e1142c6f07cb04fb7fea7f396de60cd1f0538f
   weights: '200,400,600'
   # importa fontes itálicas, o padrão é `false`
   italic: false
@@ -60,13 +83,19 @@ Na maioria das vezes, você só vai precisar especificar a "fonte especial" e o 
 ```yaml
 ---
 fonts:
-  sans: 'Robot'
-  serif: 'Robot Slab'
-  mono: 'Fira Code'
+  sans: Robot
+  serif: Robot Slab
+  mono: Fira Code
 ---
 ```
 
+<<<<<<< HEAD
 vai resultar em
+=======
+will result in
+
+<!-- eslint-skip -->
+>>>>>>> 69e1142c6f07cb04fb7fea7f396de60cd1f0538f
 
 ```css
 .font-sans {
@@ -86,7 +115,7 @@ Se você quiser desabilitar as fontes substitutas, configure assim:
 ---
 fonts:
   mono: 'Fira Code, monospace'
-  fallback: false
+  fallbacks: false
 ---
 ```
 
@@ -100,8 +129,6 @@ Atualmente, apenas o Google Fonts é suportado, nós planejamos adicionar mais p
 ```yaml
 ---
 fonts:
-  provide: 'none'
+  provider: none
 ---
 ```
-
-
