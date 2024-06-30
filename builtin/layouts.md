@@ -4,10 +4,13 @@
 
 > Já que temas podem sobrepor o comportamento dos layouts, o melhor jeito de saber exatamente o uso, parâmetros e exemplos é consultando suas respectivas documentações.
 
-
 ### `center`
 
+<<<<<<< HEAD
 Exibe o conteúdo no meio da tela.
+=======
+Displays the content in the middle of the screen.
+>>>>>>> 21fdadc17cd2018f65c637e5727de640db5036e3
 
 ### `cover`
 
@@ -15,7 +18,11 @@ Usado para exibir a página de capa para a apresentação, pode conter o título
 
 ### `default`
 
+<<<<<<< HEAD
 O layout mais básico, para exibir qualquer conteúdo.
+=======
+The most basic layout, to display any kind of content.
+>>>>>>> 21fdadc17cd2018f65c637e5727de640db5036e3
 
 ### `end`
 
@@ -39,8 +46,13 @@ Mostra uma imagem no lado esquerdo da tela, o conteúdo será posicionado à dir
 ---
 layout: image-left
 
+<<<<<<< HEAD
 # a fonte da imagem
 image: ./caminho/para/a/imagem
+=======
+# the image source
+image: /path/to/the/image
+>>>>>>> 21fdadc17cd2018f65c637e5727de640db5036e3
 
 # uma nome de classe customizado para o conteúdo
 class: my-cool-content-on-the-right
@@ -57,8 +69,13 @@ Mostra uma imagem no lado direito da tela, o conteúdo será posicionado à esqu
 ---
 layout: image-right
 
+<<<<<<< HEAD
 # a fonte da imagem
 image: ./caminho/para/a/imagem
+=======
+# the image source
+image: /path/to/the/image
+>>>>>>> 21fdadc17cd2018f65c637e5727de640db5036e3
 
 # uma nome de classe customizado para o conteúdo
 class: my-cool-content-on-the-left
@@ -75,11 +92,33 @@ Mostra uma imagem como o conteúdo principal da página.
 ---
 layout: image
 
+<<<<<<< HEAD
 # a fonte da imagem
 image: ./caminho/para/a/imagem
+=======
+# the image source
+image: /path/to/the/image
+>>>>>>> 21fdadc17cd2018f65c637e5727de640db5036e3
 ---
 ```
 
+You can change the default background size (`cover`) by adding the `backgroundSize` attribute:
+
+```yaml
+---
+layout: image
+image: /path/to/the/image
+backgroundSize: contain
+---
+```
+
+```yaml
+---
+layout: image-left
+image: /path/to/the/image
+backgroundSize: 20em 70%
+---
+```
 
 ### `iframe-left`
 
@@ -132,7 +171,6 @@ url: https://github.com/slidevjs/slidev
 ---
 ```
 
-
 ### `intro`
 
 Para introduzir a apresentação, geralmente com o título, uma descrição curta, o autor, etc.
@@ -159,7 +197,6 @@ Separa o conteúdo da página em duas colunas.
 
 #### Uso
 
-
 ```md
 ---
 layout: two-cols
@@ -176,7 +213,37 @@ Isto está à esquerda
 Isto está à direita
 ```
 
+<<<<<<< HEAD
 ## Layouts Customizados
+=======
+### `two-cols-header`
+
+Separates the upper and lower lines of the page content, and the second line separates the left and right columns.
+
+#### Usage
+
+```md
+---
+layout: two-cols-header
+---
+
+This spans both
+
+::left::
+
+# Left
+
+This shows on the left
+
+::right::
+
+# Right
+
+This shows on the right
+```
+
+## Custom Layouts
+>>>>>>> 21fdadc17cd2018f65c637e5727de640db5036e3
 
 Crie um diretório `layouts/` no diretório raiz do projeto, e simplesmente insira os componentes do seu layout customizado do Vue lá dentro.
 
