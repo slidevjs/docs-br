@@ -47,7 +47,7 @@ import DarkModeSwitch from './DarkModeSwitch.vue'
 
 const repo = useRepo()
 
-defineEmit(['toggle'])
+defineEmits(['toggle'])
 
 defineProps({
   showSidebar: { type: Boolean, required: true },
