@@ -39,7 +39,6 @@
 </template>
 
 <script setup lang="ts">
-import { defineEmit, defineProps } from 'vue'
 import { useRepo } from '../composables/repo'
 import NavBarTitle from './NavBarTitle.vue'
 import NavLinks from './NavLinks.vue'
